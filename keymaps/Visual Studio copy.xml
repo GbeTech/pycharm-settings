@@ -32,6 +32,9 @@
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
   <action id="GotoLine" />
+  <action id="Macro.Reformat and Save">
+    <keyboard-shortcut first-keystroke="ctrl s" />
+  </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
   <action id="MoveLineDown">
@@ -44,12 +47,16 @@
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
   <action id="OpenElementInNewWindow" />
+  <action id="ReformatCode">
+    <keyboard-shortcut first-keystroke="ctrl alt f" />
+  </action>
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
   </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
+  <action id="SaveAll" />
   <action id="ShowContent" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="shift alt s" />
