@@ -113,6 +113,7 @@
   </action>
   <action id="MethodDown" />
   <action id="MethodUp" />
+  <action id="Move" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
@@ -138,7 +139,9 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
   </action>
-  <action id="Resume" />
+  <action id="Resume">
+    <keyboard-shortcut first-keystroke="f6" />
+  </action>
   <action id="Run">
     <keyboard-shortcut first-keystroke="f1" />
   </action>
