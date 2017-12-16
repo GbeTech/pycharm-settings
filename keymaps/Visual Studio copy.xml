@@ -32,9 +32,11 @@
   <action id="Debug">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="Debugger.EditTypeSource" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="EditSource" />
+  <action id="EditSourceInNewWindow" />
   <action id="EditorAddRectangularSelectionOnMouseDrag" />
   <action id="EditorChooseLookupItemDot" />
   <action id="EditorCloneCaretAbove">
@@ -199,7 +201,11 @@
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.JumpToSource" />
+  <action id="XDebugger.JumpToTypeSource" />
   <action id="XDebugger.MoveWatchDown" />
+  <action id="XDebugger.MuteBreakpoints">
+    <keyboard-shortcut first-keystroke="shift f4" />
+  </action>
   <action id="XDebugger.SetValue" />
   <action id="context.save" />
 </keymap>
