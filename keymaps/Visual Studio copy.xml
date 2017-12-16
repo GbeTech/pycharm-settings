@@ -20,7 +20,7 @@
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
   <action id="CollapseRegion">
-    <keyboard-shortcut first-keystroke="ctrl subtract" />
+    <keyboard-shortcut first-keystroke="ctrl alt c" />
   </action>
   <action id="CollapseSelection" />
   <action id="CommentByBlockComment" />
@@ -107,6 +107,7 @@
     <keyboard-shortcut first-keystroke="ctrl subtract" />
   </action>
   <action id="Images.ShowThumbnails" />
+  <action id="IntroduceConstant" />
   <action id="IntroduceVariable" />
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="ctrl minus" />
