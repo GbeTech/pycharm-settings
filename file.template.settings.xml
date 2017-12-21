@@ -1,0 +1,10 @@
+<application>
+  <component name="ExportableFileTemplateSettings">
+    <default_templates>
+      <template name="for.py" reformat="true" live-template-enabled="true" />
+    </default_templates>
+    <internal_templates>
+      <template name="HTML File.html" reformat="true" live-template-enabled="false" enabled="true" />
+    </internal_templates>
+  </component>
+</application>

@@ -13,4 +13,11 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="def" value="def $NAME$($P1$):&#10;    $END$" description="method" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="P1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -4,5 +4,9 @@
       <action id="ReformatCode" />
       <action id="SaveAll" />
     </macro>
+    <macro name="End-&gt;Period">
+      <action id="EditorLineEnd" />
+      <typing text-keycode="46:0">.</typing>
+    </macro>
   </component>
 </application>
