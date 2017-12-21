@@ -97,7 +97,9 @@
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
   <action id="GotoFile" />
-  <action id="GotoLine" />
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="ctrl t" />
+  </action>
   <action id="GotoNextError" />
   <action id="GotoTest" />
   <action id="Images.Editor.ZoomIn">
@@ -207,6 +209,7 @@
   <action id="Vcs.Log.GoToRef">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
+  <action id="Vcs.UpdateProject" />
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.JumpToSource" />
