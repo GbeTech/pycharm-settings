@@ -45,4 +45,10 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="init" value="def __init__(self$P1$):&#10;    $END$" description="def __init__(self)" toReformat="false" toShortenFQNames="true">
+    <variable name="P1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
