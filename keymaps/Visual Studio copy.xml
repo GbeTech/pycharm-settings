@@ -30,7 +30,8 @@
   <action id="CompileDirty" />
   <action id="Console.Execute.Multiline" />
   <action id="ContextHelp" />
-  <action id="Debug">
+  <action id="Debug" />
+  <action id="DebugClass">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="Debugger.EditTypeSource" />
