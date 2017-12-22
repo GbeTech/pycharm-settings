@@ -51,4 +51,11 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="static" value="@staticmethod&#10;def $NAME$($P1$):&#10;    $END$" description="@staticmethod" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="P1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
