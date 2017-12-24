@@ -64,4 +64,9 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="_str" value="def __str__(self):&#10;    return $END$" description="def __str__" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
