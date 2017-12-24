@@ -1,0 +1,7 @@
+<templateSet group="custom_surround">
+  <template name="du" value="__$SELECTION$__$END$" description="surround with __%__" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
