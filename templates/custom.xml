@@ -13,7 +13,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="for" value="for $VAR1$ in $VAR2$:&#10;    $END$ " description="" toReformat="true" toShortenFQNames="true">
+  <template name="for" value="for $VAR1$ in $VAR2$:&#10;    $END$ " description="" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="index" defaultValue="i" alwaysStopAt="true" />
     <variable name="VAR2" expression="iterable" defaultValue="" alwaysStopAt="true" />
     <context>
