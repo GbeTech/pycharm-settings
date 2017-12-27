@@ -14,4 +14,11 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="for" value="for $I$ in $IT$:&#10;    $SELECTION$" description="surround with for" toReformat="false" toShortenFQNames="true">
+    <variable name="I" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="IT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
