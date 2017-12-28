@@ -40,6 +40,9 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
+  <action id="Debugger.AddToWatch">
+    <keyboard-shortcut first-keystroke="shift alt w" />
+  </action>
   <action id="Debugger.EditTypeSource" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
@@ -254,4 +257,5 @@
   </action>
   <action id="XDebugger.SetValue" />
   <action id="context.save" />
+  <action id="tasks.close" />
 </keymap>
