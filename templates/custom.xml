@@ -38,7 +38,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="if" value="if $CLAUSE$:&#10;    $END$" description="if" toReformat="true" toShortenFQNames="true">
+  <template name="if" value="if $CLAUSE$:&#10;    $END$" description="if" toReformat="false" toShortenFQNames="true">
     <variable name="CLAUSE" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
