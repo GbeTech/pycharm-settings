@@ -20,13 +20,6 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="iter" value="for $VAR$ in $ITERABLE$:&#10;    $END$" description="Iterate (for ... in ...)" toReformat="false" toShortenFQNames="true">
-    <variable name="ITERABLE" expression="pyIterableVariable()" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR" expression="collectionElementName(ITERABLE)" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
   <template name="try" value="try:&#10;    $END$&#10;except $E1$ as e:&#10;    print(&quot;Error: \n{}&quot;.format(str(e)))&#10;    raise" description="try except" toReformat="false" toShortenFQNames="true">
     <variable name="E1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -40,13 +33,6 @@
     </context>
   </template>
   <template name="init" value="def __init__(self$P1$):&#10;    $END$" description="def __init__(self)" toReformat="false" toShortenFQNames="true">
-    <variable name="P1" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
-  <template name="static" value="@staticmethod&#10;def $NAME$($P1$):&#10;    $END$" description="@staticmethod" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="P1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
