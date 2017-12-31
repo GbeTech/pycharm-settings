@@ -1,0 +1,9 @@
+<templateSet group="tests">
+  <template name="ase" value="self.assertEqual($VAR1$,$VAR2$)" description="self.assertEqual" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+</templateSet>
