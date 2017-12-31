@@ -172,13 +172,8 @@
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
   <action id="NextDiff" />
-  <action id="NextParameter" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl tab" />
-  </action>
-  <action id="NextTemplateParameter" />
-  <action id="NextTemplateVariable">
-    <keyboard-shortcut first-keystroke="enter" />
   </action>
   <action id="OpenElementInNewWindow" />
   <action id="PreviousTab">
