@@ -49,4 +49,9 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="type" value="type($END$)" description="type" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
