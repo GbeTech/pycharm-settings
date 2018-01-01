@@ -124,7 +124,13 @@
   </action>
   <action id="GotoFile" />
   <action id="GotoLine" />
-  <action id="GotoNextError" />
+  <action id="GotoNextError">
+    <keyboard-shortcut first-keystroke="f11" />
+  </action>
+  <action id="GotoPreviousError">
+    <keyboard-shortcut first-keystroke="shift f2" />
+    <keyboard-shortcut first-keystroke="f10" />
+  </action>
   <action id="GotoTest" />
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
@@ -231,7 +237,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt v" />
   </action>
   <action id="StepInto">
-    <keyboard-shortcut first-keystroke="f11" />
     <keyboard-shortcut first-keystroke="f2" />
   </action>
   <action id="StepOut">
@@ -240,7 +245,6 @@
     <keyboard-shortcut first-keystroke="alt f3" />
   </action>
   <action id="StepOver">
-    <keyboard-shortcut first-keystroke="f10" />
     <keyboard-shortcut first-keystroke="shift f8" />
     <keyboard-shortcut first-keystroke="f3" />
   </action>
