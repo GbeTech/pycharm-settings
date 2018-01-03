@@ -123,7 +123,9 @@
     <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="GotoFile" />
-  <action id="GotoLine" />
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="alt v" />
+  </action>
   <action id="GotoNextError">
     <keyboard-shortcut first-keystroke="f11" />
   </action>
