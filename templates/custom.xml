@@ -62,4 +62,16 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="ifn0" value="if $VAR$ != 0:&#10;    $END$" description="if VAR != 0" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="if0" value="if $VAR$ == 0:&#10;    $END$" description="if VAR == 0" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
