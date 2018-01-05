@@ -31,4 +31,8 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="isin" value="if isinstance($VAR1$,$T$):&#10;    $END$" description="if isinstance($VAR1$,$T$):" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="T" expression="" defaultValue="" alwaysStopAt="true" />
+  </template>
 </templateSet>
