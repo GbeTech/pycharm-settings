@@ -20,7 +20,8 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="try" value="try:&#10;    $END$&#10;except $E1$:&#10;    " description="try except" toReformat="false" toShortenFQNames="true">
+  <template name="try" value="try:&#10;    $EX$&#10;except $E1$:&#10;    $END$&#10;    " description="try except" toReformat="false" toShortenFQNames="true">
+    <variable name="EX" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="E1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
