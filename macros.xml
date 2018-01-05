@@ -12,5 +12,6 @@
       <action id="RecentFiles" />
       <shortuct text="ENTER" />
     </macro>
+    <macro name="&lt;noname&gt;" />
   </component>
 </application>
