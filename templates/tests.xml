@@ -6,4 +6,10 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="boil1" value="def test_$NAME$(self):&#10;    res = $END$ &#10;    expected = &#10;    self.assertEqual(res,expected)" description="res,expected,assertEqual" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
