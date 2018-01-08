@@ -3,7 +3,7 @@
     <property name="created">2017-12-12T16:18:37</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2017.3.0.0</property>
-    <property name="modified">2017-12-24T04:25:55</property>
+    <property name="modified">2018-01-08T22:10:34</property>
     <property name="originalScheme">Darcula</property>
   </metaInfo>
   <attributes>
@@ -23,6 +23,11 @@
       <value>
         <option name="FOREGROUND" value="87c6a9" />
         <option name="EFFECT_TYPE" value="3" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR2">
+      <value>
+        <option name="FOREGROUND" value="ffffff" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">
