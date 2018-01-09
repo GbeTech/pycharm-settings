@@ -35,4 +35,9 @@
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="T" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
+  <template name="str" value="str($SELECTION$)" description="str($SELECTION$)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
