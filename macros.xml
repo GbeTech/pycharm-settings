@@ -1,9 +1,5 @@
 <application>
   <component name="ActionMacroManager">
-    <macro name="Reformat and Save">
-      <action id="ReformatCode" />
-      <action id="SaveAll" />
-    </macro>
     <macro name="End-&gt;Period">
       <action id="EditorLineEnd" />
       <typing text-keycode="46:0">.</typing>
@@ -11,6 +7,11 @@
     <macro name="Go to recent file">
       <action id="RecentFiles" />
       <shortuct text="ENTER" />
+    </macro>
+    <macro name="ToTabs, Reformat and Save">
+      <action id="ConvertIndentsToTabs" />
+      <action id="ReformatCode" />
+      <action id="SaveAll" />
     </macro>
   </component>
 </application>

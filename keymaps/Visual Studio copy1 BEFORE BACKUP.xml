@@ -1,4 +1,4 @@
-<keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+<keymap version="1" name="Visual Studio copy1 BEFORE BACKUP" parent="Visual Studio">
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl alt o" />
   </action>
@@ -39,9 +39,6 @@
   <action id="Console.Execute.Multiline" />
   <action id="Console.History.Browse" />
   <action id="ContextHelp" />
-  <action id="ConvertIndentsToTabs">
-    <keyboard-shortcut first-keystroke="shift ctrl alt y" />
-  </action>
   <action id="Debug" />
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="f5" />
@@ -99,9 +96,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt e" />
   </action>
   <action id="ExportToTextFile" />
-  <action id="ExpressionTypeInfo">
-    <mouse-shortcut keystroke="button2" />
-  </action>
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
@@ -164,8 +158,8 @@
   <action id="Macro.End-&gt;Period">
     <keyboard-shortcut first-keystroke="alt period" />
   </action>
-  <action id="Macro.ToTabs, Reformat and Save">
-    <keyboard-shortcut first-keystroke="ctrl s" />
+  <action id="Macro.Go to recent file">
+    <keyboard-shortcut first-keystroke="alt q" />
   </action>
   <action id="MethodDown">
     <keyboard-shortcut first-keystroke="ctrl alt right" />
@@ -200,6 +194,10 @@
   </action>
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
+  </action>
+  <action id="QuickJavaDoc">
+    <keyboard-shortcut first-keystroke="ctrl q" />
+    <mouse-shortcut keystroke="button2" />
   </action>
   <action id="RecentChangedFiles">
     <keyboard-shortcut first-keystroke="shift alt q" />
@@ -264,9 +262,6 @@
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="Switcher" />
-  <action id="TabSwitchPlugin.SwitchTab">
-    <keyboard-shortcut first-keystroke="alt q" />
-  </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
