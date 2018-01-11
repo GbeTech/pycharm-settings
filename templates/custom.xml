@@ -89,4 +89,11 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="importf" value="from $var1$ import $var2$" description="from $ import $" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
