@@ -1,10 +1,10 @@
 <templateSet group="custom_surround">
-  <template name="pr" value="print($SELECTION$)" description="print($selection$)" toReformat="false" toShortenFQNames="true">
+  <template name="pr" value="print($SELECTION$)$END" description="print($SELECTION$)$END" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="enum" value="enumerate($SELECTION$)" description="enumerate($SELECTION$)" toReformat="false" toShortenFQNames="true">
+  <template name="enum" value="enumerate($SELECTION$)$END" description="enumerate($SELECTION$)$END" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
@@ -16,17 +16,17 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="tpe" value="type($SELECTION$)" description="type(selection" toReformat="false" toShortenFQNames="true">
+  <template name="tpe" value="type($SELECTION$)$END" description="type(selection" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="ra" value="range($SELECTION$)" description="range($selection$)" toReformat="false" toShortenFQNames="true">
+  <template name="ra" value="range($SELECTION$)$END" description="range($SELECTION$)$END" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="len" value="len($SELECTION$)$END$" description="len($selection$)" toReformat="false" toShortenFQNames="true">
+  <template name="len" value="len($SELECTION$)$END$" description="len($SELECTION$)$END" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
@@ -35,12 +35,12 @@
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="T" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
-  <template name="str" value="str($SELECTION$)" description="str($SELECTION$)" toReformat="false" toShortenFQNames="true">
+  <template name="str" value="str($SELECTION$)$END" description="str($SELECTION$)$END" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="list" value="list($SELECTION$)" description="list($SELECTION$)" toReformat="false" toShortenFQNames="true">
+  <template name="list" value="list($SELECTION$)$END" description="list($SELECTION$)$END" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
