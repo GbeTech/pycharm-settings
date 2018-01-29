@@ -3,7 +3,9 @@
     <data-views>
       <option name="valueLookupDelay" value="100" />
     </data-views>
-    <general />
+    <general>
+      <scroll-to-center>true</scroll-to-center>
+    </general>
     <debuggers>
       <debugger id="python">
         <configuration>
