@@ -87,6 +87,7 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
+  <action id="EvaluateExpression" />
   <action id="ExpandAll">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
@@ -119,6 +120,9 @@
   </action>
   <action id="ForceRunToCursor">
     <keyboard-shortcut first-keystroke="f8" />
+  </action>
+  <action id="ForceStepInto">
+    <keyboard-shortcut first-keystroke="alt f11" />
   </action>
   <action id="Forward">
     <mouse-shortcut keystroke="button5" />
@@ -287,6 +291,9 @@
     <keyboard-shortcut first-keystroke="shift f4" />
   </action>
   <action id="XDebugger.SetValue" />
+  <action id="com.jetbrains.python.console.RunPythonConsoleAction">
+    <keyboard-shortcut first-keystroke="alt f8" />
+  </action>
   <action id="context.save" />
   <action id="tasks.close" />
 </keymap>
