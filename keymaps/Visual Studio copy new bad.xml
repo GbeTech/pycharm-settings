@@ -183,6 +183,9 @@
   <action id="MoveLineUp">
     <keyboard-shortcut first-keystroke="alt up" />
   </action>
+  <action id="MoveTabRight">
+    <keyboard-shortcut first-keystroke="ctrl alt v" />
+  </action>
   <action id="NewDirectoryProject">
     <keyboard-shortcut first-keystroke="shift ctrl n" />
   </action>
@@ -244,9 +247,6 @@
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="shift alt space" />
     <keyboard-shortcut first-keystroke="shift space" />
-  </action>
-  <action id="SplitVertically">
-    <keyboard-shortcut first-keystroke="ctrl alt v" />
   </action>
   <action id="StepInto">
     <keyboard-shortcut first-keystroke="f2" />
