@@ -13,6 +13,9 @@
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="BrowseWordAtCaretPlugin.AutoHighlight">
+    <keyboard-shortcut first-keystroke="shift ctrl alt h" />
+  </action>
   <action id="CheckinProject" />
   <action id="CloseActiveTab" />
   <action id="CloseContent">
@@ -208,6 +211,7 @@
   <action id="OpenInBrowserGroup">
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
+  <action id="PopupHector" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
