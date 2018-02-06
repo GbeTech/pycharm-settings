@@ -1,5 +1,5 @@
 <templateSet group="custom">
-  <template name="forr" value="for $VAR1$ in range($VAR2$):&#10;    $END$ " description="for in range" toReformat="true" toShortenFQNames="true">
+  <template name="forr" value="for $VAR1$ in range($VAR2$):&#10;    $END$" description="for in range" toReformat="true" toShortenFQNames="true">
     <variable name="VAR1" expression="index" defaultValue="i" alwaysStopAt="true" />
     <variable name="VAR2" expression="iterable" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -110,6 +110,11 @@
   </template>
   <template name="pf1" value="print(f'{$VAR1$}$END$')" description="print(f'{}')" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="fora" value="for arg in args:&#10;    $END$" description="for arg in args:" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
