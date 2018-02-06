@@ -16,7 +16,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="tpe" value="type($SELECTION$)$END$" description="type(selection" toReformat="false" toShortenFQNames="true">
+  <template name="type" value="type($SELECTION$)$END$" description="type(selection" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
@@ -47,6 +47,11 @@
   </template>
   <template name="try" value="try:&#10;    $SELECTION$&#10;except Exception as e:&#10;    $VAR1$" description="surround with try except" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="print(e)" defaultValue="print(e)" alwaysStopAt="false" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="fprint" value="f'$SELECTION$: {$SELECTION$}'$END$" description="f'$SELECTION: {$SELECTION}'" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
