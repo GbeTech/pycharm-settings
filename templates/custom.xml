@@ -103,4 +103,15 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="pf" value="print(f'$END$')" description="print(f'')" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="pf1" value="print(f'{$VAR1$}$END$')" description="print(f'{}')" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
