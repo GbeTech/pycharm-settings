@@ -75,7 +75,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="ifin" value="if isinstance($VAR1$,$T$):&#10;    $END$" description="if isinstance(var,type)" toReformat="false" toShortenFQNames="true">
+  <template name="ifis" value="if isinstance($VAR1$,$T$):&#10;    $END$" description="if isinstance(var,type)" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="T" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
