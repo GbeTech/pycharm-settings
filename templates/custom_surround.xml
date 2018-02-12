@@ -51,7 +51,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="fprint" value="f'$SELECTION$: {$SELECTION$}'$END$" description="f'$SELECTION: {$SELECTION}'" toReformat="false" toShortenFQNames="true">
+  <template name="fprint" value="print(f'$SELECTION$: {$SELECTION$}'$END$)" description="f'$SELECTION: {$SELECTION}'" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
     </context>
