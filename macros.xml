@@ -13,5 +13,26 @@
       <action id="ReformatCode" />
       <action id="SaveAll" />
     </macro>
+    <macro name="words to list">
+      <action id="SplitAction" />
+      <action id="WrapAction" />
+      <action id="WrapAction" />
+      <action id="EditorBackSpace" />
+      <typing text-keycode="91:0">[</typing>
+      <shortuct text="TAB" />
+      <action id="EditorBackSpace" />
+      <action id="EditorBackSpace" />
+      <typing text-keycode="93:0">]</typing>
+      <action id="JoinAction" />
+      <action id="EditorBackSpace" />
+    </macro>
+    <macro name="list to lines">
+      <action id="SplitAction" />
+      <shortuct text="ENTER" />
+      <action id="Macro.ToTabs, Reformat and Save" />
+      <action id="ConvertIndentsToTabs" />
+      <action id="ReformatCode" />
+      <action id="SaveAll" />
+    </macro>
   </component>
 </application>
