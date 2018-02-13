@@ -1,4 +1,7 @@
 <keymap version="1" name="Visual Studio copy" parent="Visual Studio">
+  <action id="ActivateCopy/PasteToolWindow">
+    <keyboard-shortcut first-keystroke="shift ctrl alt c" />
+  </action>
   <action id="ActivateEventLogToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl alt o" />
   </action>
@@ -48,6 +51,7 @@
   <action id="ConvertIndentsToTabs">
     <keyboard-shortcut first-keystroke="shift ctrl alt y" />
   </action>
+  <action id="CopyReference" />
   <action id="Debug" />
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="f5" />
