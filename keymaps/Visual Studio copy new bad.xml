@@ -174,7 +174,9 @@
   <action id="Images.ShowThumbnails" />
   <action id="IncrementWindowHeight" />
   <action id="IntroduceConstant" />
-  <action id="IntroduceVariable" />
+  <action id="IntroduceVariable">
+    <keyboard-shortcut first-keystroke="shift ctrl e" second-keystroke="v" />
+  </action>
   <action id="IpnbRunAllCellsAction" />
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="ctrl minus" />
