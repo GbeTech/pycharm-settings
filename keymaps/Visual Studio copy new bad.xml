@@ -174,6 +174,7 @@
   <action id="Images.ShowThumbnails" />
   <action id="IncrementWindowHeight" />
   <action id="IntroduceConstant" />
+  <action id="IntroduceParameter" />
   <action id="IntroduceVariable">
     <keyboard-shortcut first-keystroke="shift ctrl e" second-keystroke="v" />
   </action>
@@ -197,6 +198,8 @@
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="Move" />
+  <action id="MoveElementLeft" />
+  <action id="MoveElementRight" />
   <action id="MoveLineDown">
     <keyboard-shortcut first-keystroke="alt down" />
   </action>
@@ -231,9 +234,6 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt n" />
   </action>
   <action id="NextDiff" />
-  <action id="NextSplitter">
-    <keyboard-shortcut first-keystroke="shift ctrl alt u" />
-  </action>
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
@@ -242,13 +242,12 @@
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
   <action id="PopupHector" />
-  <action id="PrevSplitter">
-    <mouse-shortcut keystroke="button142" />
-    <keyboard-shortcut first-keystroke="shift ctrl alt p" />
-  </action>
+  <action id="PreviousEditorTab" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
+  <action id="QuickJumpAction" />
+  <action id="QuickJumpSelectAction" />
   <action id="RecentChangedFiles">
     <keyboard-shortcut first-keystroke="shift alt q" />
   </action>
@@ -322,6 +321,12 @@
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
   <action id="Switcher" />
+  <action id="TabShiftActions.StretchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
+  </action>
+  <action id="TabShiftActions.StretchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt p" />
+  </action>
   <action id="TabSwitchPlugin.SwitchTab">
     <keyboard-shortcut first-keystroke="alt q" />
   </action>
@@ -333,6 +338,8 @@
   </action>
   <action id="Vcs.Push" />
   <action id="Vcs.UpdateProject" />
+  <action id="VcsShowNextChangeMarker" />
+  <action id="VcsShowPrevChangeMarker" />
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.JumpToSource" />
@@ -344,6 +351,10 @@
   <action id="XDebugger.SetValue" />
   <action id="com.jetbrains.python.console.RunPythonConsoleAction">
     <keyboard-shortcut first-keystroke="alt f8" />
+  </action>
+  <action id="com.johnlindquist.quickjump.QuickJumpSelectFromCaretAction" />
+  <action id="com.johnlindquist.quickjump.QuickJumpSmartCompletionAction">
+    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
   </action>
   <action id="context.save" />
   <action id="tasks.close" />

@@ -1,15 +1,17 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
-      <action id="PrevSplitter" />
-      <action id="NextSplitter" />
-      <action id="MoveEditorToOppositeTabGroup" />
+      <action id="VcsShowNextChangeMarker" />
       <action id="ConvertIndentsToTabs">
         <abbreviation name="stt" />
       </action>
       <action id="JumpToLastWindow">
         <abbreviation name="ltw" />
       </action>
+      <action id="MoveEditorToOppositeTabGroup" />
+      <action id="VcsShowPrevChangeMarker" />
+      <action id="NextSplitter" />
+      <action id="PrevSplitter" />
     </abbreviations>
   </component>
 </application>
