@@ -5,6 +5,9 @@
       <action id="ConvertIndentsToTabs">
         <abbreviation name="stt" />
       </action>
+      <action id="JumpToLastWindow">
+        <abbreviation name="ltw" />
+      </action>
     </abbreviations>
   </component>
 </application>
