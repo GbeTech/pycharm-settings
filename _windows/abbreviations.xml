@@ -1,6 +1,8 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
+      <action id="PrevSplitter" />
+      <action id="NextSplitter" />
       <action id="MoveEditorToOppositeTabGroup" />
       <action id="ConvertIndentsToTabs">
         <abbreviation name="stt" />
