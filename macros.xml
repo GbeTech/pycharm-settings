@@ -34,5 +34,6 @@
       <action id="ReformatCode" />
       <action id="SaveAll" />
     </macro>
+    <macro name="Debug Python Prompt" />
   </component>
 </application>
