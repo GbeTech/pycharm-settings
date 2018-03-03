@@ -35,5 +35,10 @@
       <action id="SaveAll" />
     </macro>
     <macro name="Debug Python Prompt" />
+    <macro name="New Directory">
+      <action id="NewElement" />
+      <typing text-keycode="78:1;69:0;87:0;32:0;68:1;73:0;82:0;69:0;67:0;84:0;79:0;82:0;89:0">New&amp;#x20;Directory</typing>
+      <shortuct text="ENTER" />
+    </macro>
   </component>
 </application>
