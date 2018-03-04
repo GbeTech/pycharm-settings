@@ -5,11 +5,17 @@
       <action id="ConvertIndentsToTabs">
         <abbreviation name="stt" />
       </action>
+      <action id="ToggleFullScreen">
+        <abbreviation name="fulls" />
+      </action>
       <action id="JumpToLastWindow">
         <abbreviation name="ltw" />
       </action>
       <action id="MoveEditorToOppositeTabGroup" />
       <action id="VcsShowPrevChangeMarker" />
+      <action id="ToggleDistractionFreeMode">
+        <abbreviation name="dist" />
+      </action>
       <action id="NextSplitter" />
       <action id="PrevSplitter" />
     </abbreviations>

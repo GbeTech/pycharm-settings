@@ -126,4 +126,11 @@
       <option name="Python_Class" value="true" />
     </context>
   </template>
+  <template name="impas" value="import $var1$ as $var2$" description="import $ as $" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>

@@ -73,6 +73,8 @@
   <action id="EditorCloneCaretBelow">
     <keyboard-shortcut first-keystroke="shift alt down" />
   </action>
+  <action id="EditorCodeBlockEndWithSelection" />
+  <action id="EditorCodeBlockStartWithSelection" />
   <action id="EditorContextInfo" />
   <action id="EditorCreateRectangularSelection">
     <mouse-shortcut keystroke="shift alt button1" />
@@ -240,6 +242,9 @@
   <action id="OpenInBrowserGroup">
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
+  <action id="Pause">
+    <keyboard-shortcut first-keystroke="ctrl pause" />
+  </action>
   <action id="PopupHector" />
   <action id="PreviousEditorTab" />
   <action id="PreviousTab">
@@ -321,10 +326,16 @@
   </action>
   <action id="Switcher" />
   <action id="TabShiftActions.StretchDown">
-    <keyboard-shortcut first-keystroke="ctrl alt semicolon" />
+    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
+  </action>
+  <action id="TabShiftActions.StretchLeft">
+    <keyboard-shortcut first-keystroke="shift ctrl open_bracket" />
+  </action>
+  <action id="TabShiftActions.StretchRight">
+    <keyboard-shortcut first-keystroke="shift ctrl close_bracket" />
   </action>
   <action id="TabShiftActions.StretchUp">
-    <keyboard-shortcut first-keystroke="ctrl alt p" />
+    <keyboard-shortcut first-keystroke="shift ctrl p" />
   </action>
   <action id="TabSwitchPlugin.SwitchTab">
     <keyboard-shortcut first-keystroke="alt q" />
@@ -352,9 +363,7 @@
     <keyboard-shortcut first-keystroke="alt f8" />
   </action>
   <action id="com.johnlindquist.quickjump.QuickJumpSelectFromCaretAction" />
-  <action id="com.johnlindquist.quickjump.QuickJumpSmartCompletionAction">
-    <keyboard-shortcut first-keystroke="shift ctrl semicolon" />
-  </action>
+  <action id="com.johnlindquist.quickjump.QuickJumpSmartCompletionAction" />
   <action id="context.save" />
   <action id="tasks.close" />
 </keymap>
