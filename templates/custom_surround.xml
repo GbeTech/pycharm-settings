@@ -56,4 +56,10 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="if" value="if $CONDITION$:&#10;    $SELECTION$" description="surround with if" toReformat="false" toShortenFQNames="true">
+    <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
