@@ -2,9 +2,6 @@
   <action id="ActivateCopy/PasteToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
-  <action id="ActivateEventLogToolWindow">
-    <keyboard-shortcut first-keystroke="shift ctrl alt o" />
-  </action>
   <action id="AddNewFavoritesList">
     <keyboard-shortcut first-keystroke="shift ctrl alt period" />
   </action>
@@ -52,7 +49,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt y" />
   </action>
   <action id="CopyReference" />
-  <action id="Debug" />
+  <action id="Debug">
+    <keyboard-shortcut first-keystroke="ctrl f5" />
+  </action>
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
@@ -89,6 +88,7 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorPasteFromX11" />
+  <action id="EditorPasteSimple" />
   <action id="EditorScrollDown" />
   <action id="EditorScrollToCenter" />
   <action id="EditorScrollUp" />
@@ -121,6 +121,7 @@
   <action id="ExpressionTypeInfo">
     <mouse-shortcut keystroke="button2" />
   </action>
+  <action id="ExtractMethod" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
   </action>
@@ -177,9 +178,7 @@
   <action id="IncrementWindowHeight" />
   <action id="IntroduceConstant" />
   <action id="IntroduceParameter" />
-  <action id="IntroduceVariable">
-    <keyboard-shortcut first-keystroke="shift ctrl e" second-keystroke="v" />
-  </action>
+  <action id="IntroduceVariable" />
   <action id="IpnbRunAllCellsAction" />
   <action id="JumpToLastChange">
     <keyboard-shortcut first-keystroke="ctrl minus" />
@@ -295,6 +294,9 @@
   <action id="SmartTypeCompletion">
     <keyboard-shortcut first-keystroke="shift alt space" />
     <keyboard-shortcut first-keystroke="shift space" />
+  </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="shift ctrl alt v" />
   </action>
   <action id="SplitSelection">
     <keyboard-shortcut first-keystroke="shift ctrl alt l" />

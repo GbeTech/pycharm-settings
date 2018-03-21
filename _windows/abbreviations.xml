@@ -12,7 +12,13 @@
         <abbreviation name="ltw" />
       </action>
       <action id="MoveEditorToOppositeTabGroup" />
+      <action id="ExtractMethod">
+        <abbreviation name="exm" />
+      </action>
       <action id="VcsShowPrevChangeMarker" />
+      <action id="IntroduceVariable">
+        <abbreviation name="exv" />
+      </action>
       <action id="ToggleDistractionFreeMode">
         <abbreviation name="dist" />
       </action>
