@@ -152,7 +152,6 @@
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
     <keyboard-shortcut first-keystroke="shift f2" />
-    <keyboard-shortcut first-keystroke="ctrl b" />
     <mouse-shortcut keystroke="control button1" />
   </action>
   <action id="GotoFile" />
@@ -168,6 +167,10 @@
   </action>
   <action id="GotoSymbol" />
   <action id="GotoTest" />
+  <action id="HideActiveWindow" />
+  <action id="HideAllWindows">
+    <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
   </action>
