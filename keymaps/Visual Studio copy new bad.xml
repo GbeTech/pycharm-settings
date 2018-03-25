@@ -85,6 +85,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl back_space" />
   </action>
   <action id="EditorIndentSelection" />
+  <action id="EditorJoinLines" />
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorPasteFromX11" />
@@ -134,6 +135,9 @@
   <action id="FindPrevious">
     <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
+  <action id="FindWordAtCaret">
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
+  </action>
   <action id="ForceRunToCursor">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
@@ -179,6 +183,7 @@
   </action>
   <action id="Images.ShowThumbnails" />
   <action id="IncrementWindowHeight" />
+  <action id="InsertLiveTemplate" />
   <action id="IntroduceConstant" />
   <action id="IntroduceParameter" />
   <action id="IntroduceVariable" />
@@ -279,6 +284,12 @@
   </action>
   <action id="RunDashboard.ShowConfigurations" />
   <action id="SaveAll" />
+  <action id="SelectAllOccurrences">
+    <keyboard-shortcut first-keystroke="shift ctrl j" />
+  </action>
+  <action id="SelectNextOccurrence">
+    <keyboard-shortcut first-keystroke="ctrl j" />
+  </action>
   <action id="ShelvedChanges.Rename">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
@@ -344,6 +355,9 @@
   </action>
   <action id="TabSwitchPlugin.SwitchTab">
     <keyboard-shortcut first-keystroke="alt q" />
+  </action>
+  <action id="TechnicalSupport">
+    <keyboard-shortcut first-keystroke="shift ctrl alt u" />
   </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="f4" />
