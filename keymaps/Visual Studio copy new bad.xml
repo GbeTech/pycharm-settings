@@ -167,11 +167,16 @@
     <keyboard-shortcut first-keystroke="shift f2" />
     <keyboard-shortcut first-keystroke="f10" />
   </action>
-  <action id="GotoSymbol" />
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
   <action id="GotoTest" />
   <action id="HideActiveWindow" />
   <action id="HideAllWindows">
     <keyboard-shortcut first-keystroke="ctrl b" />
+  </action>
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
   <action id="Images.Editor.ZoomIn">
     <keyboard-shortcut first-keystroke="ctrl add" />
