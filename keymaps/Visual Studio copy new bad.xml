@@ -255,6 +255,11 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
+  <action id="PythonCellMode.RunCell">
+    <keyboard-shortcut first-keystroke="f9" />
+  </action>
+  <action id="PythonCellMode.RunCellMoveNext" />
+  <action id="PythonCellMode.RunLine" />
   <action id="QuickJumpAction" />
   <action id="QuickJumpSelectAction" />
   <action id="RecentChangedFiles">
