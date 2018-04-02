@@ -349,9 +349,7 @@
     <keyboard-shortcut first-keystroke="shift f5" />
     <keyboard-shortcut first-keystroke="shift f1" />
   </action>
-  <action id="SurroundWith">
-    <keyboard-shortcut first-keystroke="shift ctrl k" />
-  </action>
+  <action id="SurroundWith" />
   <action id="SurroundWithLiveTemplate">
     <keyboard-shortcut first-keystroke="ctrl k" />
   </action>
