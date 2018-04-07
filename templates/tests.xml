@@ -1,20 +1,7 @@
 <templateSet group="tests">
-  <template name="ase" value="self.assertEqual($VAR1$,$VAR2$)" description="self.assertEqual" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
-  <template name="boil1" value="def test_$NAME$(self):&#10;    res = $END$ &#10;    expected = &#10;    self.assertEqual(res,expected)" description="res,expected,assertEqual" toReformat="false" toShortenFQNames="true">
-    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
-  <template name="asi" value="self.assertIsInstance($VAR1$,$VAR2$)" description="self.assertIsInstance" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="test" value="def test_$NUM$():&#10;    expected = f&quot;&quot;&quot;$END$&#10;    &quot;&quot;&quot;&#10;    assert magic_me(f&quot;$WHAT$&quot;) == expected" description="autosyntax test template" toReformat="false" toShortenFQNames="true">
+    <variable name="NUM" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="WHAT" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
