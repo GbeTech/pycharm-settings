@@ -313,7 +313,6 @@
   <action id="ShowContent" />
   <action id="ShowErrorDescription">
     <keyboard-shortcut first-keystroke="alt t" />
-    <keyboard-shortcut first-keystroke="ctrl period" />
   </action>
   <action id="ShowReformatFileDialog" />
   <action id="ShowSettings">
@@ -397,7 +396,9 @@
     <keyboard-shortcut first-keystroke="alt f8" />
   </action>
   <action id="com.johnlindquist.quickjump.QuickJumpSelectFromCaretAction" />
-  <action id="com.johnlindquist.quickjump.QuickJumpSmartCompletionAction" />
+  <action id="com.johnlindquist.quickjump.QuickJumpSmartCompletionAction">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+  </action>
   <action id="context.save" />
   <action id="tasks.close" />
 </keymap>
