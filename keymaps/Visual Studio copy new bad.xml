@@ -18,6 +18,12 @@
   <action id="BrowseWordAtCaretPlugin.AutoHighlight">
     <keyboard-shortcut first-keystroke="shift ctrl alt h" />
   </action>
+  <action id="BrowseWordAtCaretPlugin.Next">
+    <keyboard-shortcut first-keystroke="alt j" />
+  </action>
+  <action id="BrowseWordAtCaretPlugin.Previous">
+    <keyboard-shortcut first-keystroke="ctrl alt j" />
+  </action>
   <action id="CheckinProject" />
   <action id="CloseActiveTab" />
   <action id="CloseContent">
