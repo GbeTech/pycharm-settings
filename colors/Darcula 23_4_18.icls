@@ -4,7 +4,7 @@
     <property name="created">2018-04-23T19:22:01</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-04-30T14:33:58</property>
+    <property name="modified">2018-04-30T16:25:44</property>
     <property name="originalScheme">_@user_Darcula</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="20" />
@@ -21,7 +21,7 @@
     </option>
     <option name="BROWSEWORDATCARET">
       <value>
-        <option name="BACKGROUND" value="172c50" />
+        <option name="BACKGROUND" value="233746" />
         <option name="ERROR_STRIPE_COLOR" value="62ff" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
