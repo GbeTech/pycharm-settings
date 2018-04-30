@@ -4,7 +4,7 @@
     <property name="created">2018-04-23T19:22:01</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-04-30T13:52:17</property>
+    <property name="modified">2018-04-30T14:33:58</property>
     <property name="originalScheme">_@user_Darcula</property>
   </metaInfo>
   <option name="EDITOR_FONT_SIZE" value="20" />
@@ -21,8 +21,8 @@
     </option>
     <option name="BROWSEWORDATCARET">
       <value>
-        <option name="BACKGROUND" value="344334" />
-        <option name="ERROR_STRIPE_COLOR" value="b5500" />
+        <option name="BACKGROUND" value="172c50" />
+        <option name="ERROR_STRIPE_COLOR" value="62ff" />
         <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
@@ -52,6 +52,12 @@
     <option name="RAINBOW_COLOR2">
       <value>
         <option name="FOREGROUND" value="ffffff" />
+      </value>
+    </option>
+    <option name="TODO_DEFAULT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="a8c023" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="WARNING_ATTRIBUTES">

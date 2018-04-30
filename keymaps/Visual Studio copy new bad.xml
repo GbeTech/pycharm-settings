@@ -20,7 +20,7 @@
     <mouse-shortcut keystroke="button4" />
   </action>
   <action id="BrowseWordAtCaretPlugin.AutoHighlight">
-    <keyboard-shortcut first-keystroke="shift ctrl alt h" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt j" />
   </action>
   <action id="BrowseWordAtCaretPlugin.Next">
     <keyboard-shortcut first-keystroke="alt j" />
