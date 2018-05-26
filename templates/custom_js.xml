@@ -4,7 +4,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="if" value="if ($SELECTION$){&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="if" value="if ($SELECTION$){&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -21,7 +21,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="for" value="for (let i=0; i&lt;$A$.length; i++){&#10;    $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="for" value="for (let i=0; i&lt;$A$.length; i++){&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="A" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
