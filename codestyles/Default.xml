@@ -24,6 +24,9 @@
       <option name="ITERATION_ELEMENTS_WRAPPING" value="chop_down_if_not_single" />
     </formatting-settings>
   </DBN-SQL>
+  <HTMLCodeStyleSettings>
+    <option name="HTML_ALIGN_TEXT" value="true" />
+  </HTMLCodeStyleSettings>
   <Python>
     <option name="NEW_LINE_AFTER_COLON_MULTI_CLAUSE" value="false" />
     <option name="DICT_ALIGNMENT" value="1" />
@@ -33,6 +36,10 @@
     <option name="FROM_IMPORT_PARENTHESES_FORCE_IF_MULTILINE" value="true" />
     <option name="HANG_CLOSING_BRACKETS" value="true" />
   </Python>
+  <codeStyleSettings language="HTML">
+    <option name="RIGHT_MARGIN" value="350" />
+    <option name="WRAP_ON_TYPING" value="1" />
+  </codeStyleSettings>
   <codeStyleSettings language="Python">
     <option name="WRAP_LONG_LINES" value="true" />
     <indentOptions>
