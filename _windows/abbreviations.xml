@@ -2,6 +2,9 @@
   <component name="AbbreviationManager">
     <abbreviations>
       <action id="VcsShowNextChangeMarker" />
+      <action id="Arrangement.Rule.Group.Condition.Move.Up">
+        <abbreviation name="mu" />
+      </action>
       <action id="ConvertIndentsToTabs">
         <abbreviation name="stt" />
       </action>
@@ -11,7 +14,9 @@
       <action id="JumpToLastWindow">
         <abbreviation name="ltw" />
       </action>
-      <action id="MoveEditorToOppositeTabGroup" />
+      <action id="MoveEditorToOppositeTabGroup">
+        <abbreviation name="mo" />
+      </action>
       <action id="ExtractMethod">
         <abbreviation name="exm" />
       </action>
@@ -24,6 +29,9 @@
       </action>
       <action id="NextSplitter" />
       <action id="PrevSplitter" />
+      <action id="Arrangement.Rule.Match.Condition.Move.Down">
+        <abbreviation name="md" />
+      </action>
     </abbreviations>
   </component>
 </application>
