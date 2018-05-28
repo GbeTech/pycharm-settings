@@ -12,10 +12,10 @@
     <mask>*.java</mask>
     <mask>*.js</mask>
     <mask>*.as</mask>
-    <mask>*.css</mask>
     <mask>*.mxml</mask>
-    <mask>*.py</mask>
     <mask>*.html</mask>
+    <mask>*.css</mask>
+    <mask>*.py</mask>
     <mask>*.py, *.html</mask>
   </component>
 </application>
