@@ -133,4 +133,10 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="prr" value="print(f'$var1$: ', $var1$)" description="print(f'var: ', var)" toReformat="false" toShortenFQNames="true">
+    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
