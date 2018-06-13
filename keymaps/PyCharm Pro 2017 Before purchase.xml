@@ -11,6 +11,7 @@
   <action id="AddNewFavoritesList">
     <keyboard-shortcut first-keystroke="shift ctrl alt period" />
   </action>
+  <action id="AddToFavoritesPopup" />
   <action id="Arrangement.Alias.Rule.Edit" />
   <action id="Arrangement.Rule.Edit" />
   <action id="Arrangement.Rule.Group.Condition.Move.Up" />
@@ -77,6 +78,7 @@
   <action id="DecrementWindowHeight" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="DumpLookupElementWeights" />
   <action id="EditSource" />
   <action id="EditSourceInNewWindow" />
   <action id="EditorAddRectangularSelectionOnMouseDrag" />
@@ -393,8 +395,14 @@
   <action id="TechnicalSupport">
     <keyboard-shortcut first-keystroke="shift ctrl alt u" />
   </action>
+  <action id="ToggleFloatingMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="f" />
+  </action>
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="f4" />
+  </action>
+  <action id="ToggleWindowedMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="w" />
   </action>
   <action id="Vcs.Log.GoToRef">
     <keyboard-shortcut first-keystroke="ctrl f" />
