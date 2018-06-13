@@ -265,6 +265,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt n" />
   </action>
   <action id="NextDiff" />
+  <action id="NextProjectWindow" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
@@ -277,6 +278,7 @@
   </action>
   <action id="PopupHector" />
   <action id="PreviousEditorTab" />
+  <action id="PreviousProjectWindow" />
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
