@@ -15,7 +15,6 @@
       </debugger>
       <debugger id="python">
         <configuration>
-          <option name="loadValuesAsync" value="false" />
           <option name="simplifiedView" value="false" />
           <option name="watchReturnValues" value="true" />
         </configuration>
