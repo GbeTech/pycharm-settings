@@ -39,7 +39,7 @@
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
-    <pattern useCustomColors="true" pattern="\[.*">
+    <pattern useCustomColors="true" pattern="\#[ ]{1}\[.*$">
       <option name="FOREGROUND" value="437eb9" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
