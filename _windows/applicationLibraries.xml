@@ -12,6 +12,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="bootstrap-datetimepicker" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_bootstrap-datetimepicker_4.17.47_js_bootstrap-datetimepicker.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_bootstrap-datetimepicker_4.17.47_js_bootstrap-datetimepicker.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="firebase" type="javaScript">
       <properties>
         <sourceFilesUrls>
@@ -114,6 +125,17 @@
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.14.0_umd_popper.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="tempusdominus-bootstrap-4" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tempusdominus-bootstrap-4_5.0.0-alpha14_js_tempusdominus-bootstrap-4.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tempusdominus-bootstrap-4_5.0.0-alpha14_js_tempusdominus-bootstrap-4.js" />
       </CLASSES>
       <SOURCES />
     </library>
