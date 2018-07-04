@@ -139,7 +139,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="logg" value="utils.log('$VAR1$: {}'.format($VAR1$))" description="log(txt: {}.format..." toReformat="false" toShortenFQNames="true">
+  <template name="logg" value="utils.log({'$VAR1$':$VAR1$})" description="log(txt: {}.format..." toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
