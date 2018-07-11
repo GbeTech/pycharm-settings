@@ -62,4 +62,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="listenajax" value="add_listener('$E$', 'click',&#10;    () =&gt; ajax('$URL$', $VAR$).then(answer =&gt; $VAR$ = answer));" description="add ajax listener with click default" toReformat="false" toShortenFQNames="true">
+    <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
