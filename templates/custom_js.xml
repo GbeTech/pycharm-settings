@@ -44,4 +44,11 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="listen" value="add_listener('$E$', 'click', ()=&gt;{&#10;    $DO$&#10;    });" description="add listener with click default" toReformat="false" toShortenFQNames="true">
+    <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DO" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
