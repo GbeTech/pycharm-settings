@@ -51,4 +51,10 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
+  <template name="forin" value="for (let key in $dict$){&#10;    $END$&#10;}" description="forin" toReformat="false" toShortenFQNames="true">
+    <variable name="dict" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
