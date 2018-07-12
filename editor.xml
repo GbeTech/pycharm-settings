@@ -39,15 +39,15 @@
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
-    <pattern useCustomColors="true" pattern="[ ]{1}\[.*$">
-      <option name="FOREGROUND" value="498bcc" />
-      <option name="FONT_TYPE" value="2" />
-    </pattern>
     <pattern useCustomColors="true" pattern="[ ]{1}\!.*$">
       <option name="FOREGROUND" value="c1170c" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern useCustomColors="true" pattern="[ ]{1}\+.*$">
+    <pattern useCustomColors="true" pattern="[ ]{1}\+{1}[\w -:?;]*">
+      <option name="FOREGROUND" value="498aca" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern useCustomColors="true" pattern="[ ]{1}\+{2}.*$">
       <option name="FOREGROUND" value="1c124" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
