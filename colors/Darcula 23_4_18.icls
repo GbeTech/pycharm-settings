@@ -4,7 +4,7 @@
     <property name="created">2018-04-23T19:22:01</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-07-02T18:03:53</property>
+    <property name="modified">2018-07-16T16:55:04</property>
     <property name="originalScheme">_@user_Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -65,6 +65,21 @@
     </option>
     <option name="HTML_TAG_NAME">
       <value />
+    </option>
+    <option name="JS.GLOBAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+      </value>
+    </option>
+    <option name="JS.KEYWORD">
+      <value>
+        <option name="FOREGROUND" value="cc7832" />
+      </value>
+    </option>
+    <option name="JS.LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="a9b7c6" />
+      </value>
     </option>
     <option name="MARKDOWN_NAVIGATOR.BOLD_TEXT_ABBREVIATED_TEXT">
       <value>
