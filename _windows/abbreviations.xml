@@ -1,37 +1,40 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
-      <action id="VcsShowNextChangeMarker" />
-      <action id="Arrangement.Rule.Group.Condition.Move.Up">
-        <abbreviation name="mu" />
+      <action id="ToggleFullScreen">
+        <abbreviation name="fulls" />
+      </action>
+      <action id="OpenEditorInOppositeTabGroup">
+        <abbreviation name="oop" />
+      </action>
+      <action id="Arrangement.Rule.Match.Condition.Move.Down">
+        <abbreviation name="md" />
       </action>
       <action id="ConvertIndentsToTabs">
         <abbreviation name="stt" />
       </action>
-      <action id="ToggleFullScreen">
-        <abbreviation name="fulls" />
-      </action>
-      <action id="JumpToLastWindow">
-        <abbreviation name="ltw" />
-      </action>
       <action id="MoveEditorToOppositeTabGroup">
         <abbreviation name="mo" />
+      </action>
+      <action id="NextSplitter" />
+      <action id="PrevSplitter" />
+      <action id="IntroduceVariable">
+        <abbreviation name="exv" />
+      </action>
+      <action id="Arrangement.Rule.Group.Condition.Move.Up">
+        <abbreviation name="mu" />
+      </action>
+      <action id="ToggleDistractionFreeMode">
+        <abbreviation name="dist" />
+      </action>
+      <action id="VcsShowNextChangeMarker" />
+      <action id="JumpToLastWindow">
+        <abbreviation name="ltw" />
       </action>
       <action id="ExtractMethod">
         <abbreviation name="exm" />
       </action>
       <action id="VcsShowPrevChangeMarker" />
-      <action id="IntroduceVariable">
-        <abbreviation name="exv" />
-      </action>
-      <action id="ToggleDistractionFreeMode">
-        <abbreviation name="dist" />
-      </action>
-      <action id="NextSplitter" />
-      <action id="PrevSplitter" />
-      <action id="Arrangement.Rule.Match.Condition.Move.Down">
-        <abbreviation name="md" />
-      </action>
     </abbreviations>
   </component>
 </application>
