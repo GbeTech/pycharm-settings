@@ -16,6 +16,9 @@
       <action id="MoveEditorToOppositeTabGroup">
         <abbreviation name="mo" />
       </action>
+      <action id="MoveTabDown">
+        <abbreviation name="mdown" />
+      </action>
       <action id="NextSplitter" />
       <action id="PrevSplitter" />
       <action id="IntroduceVariable">
