@@ -66,12 +66,7 @@
       <option name="EFFECT_COLOR" value="569eea" />
       <option name="EFFECT_TYPE" value="1" />
     </pattern>
-    <pattern useCustomColors="true" pattern="\btodo\b.*done$">
-      <option name="FOREGROUND" value="ff649f" />
-      <option name="FONT_TYPE" value="2" />
-      <option name="EFFECT_COLOR" value="ff649f" />
-      <option name="EFFECT_TYPE" value="3" />
-    </pattern>
+    <pattern pattern="[ ]{1}\!{1}.*$" />
   </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
