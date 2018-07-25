@@ -20,6 +20,7 @@
   <action id="Back">
     <mouse-shortcut keystroke="button4" />
   </action>
+  <action id="BaseOnThisFunction" />
   <action id="BrowseWordAtCaretPlugin.AutoHighlight">
     <keyboard-shortcut first-keystroke="shift ctrl alt j" />
   </action>
@@ -294,6 +295,10 @@
   <action id="PythonCellMode.RunLine" />
   <action id="QuickJumpAction" />
   <action id="QuickJumpSelectAction" />
+  <action id="Rainbow.ScopeHighlightingAction">
+    <keyboard-shortcut first-keystroke="alt h" />
+  </action>
+  <action id="Rainbow.ScopeOutsideHighlightingRestrainAction" />
   <action id="RecentChangedFiles">
     <keyboard-shortcut first-keystroke="shift alt q" />
   </action>
@@ -407,6 +412,8 @@
   <action id="ToggleWindowedMode">
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="w" />
   </action>
+  <action id="TypeHierarchy" />
+  <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Vcs.Log.GoToRef">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
