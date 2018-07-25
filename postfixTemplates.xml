@@ -1,0 +1,5 @@
+<application>
+  <component name="PostfixTemplates">
+    <template id="com.intellij.lang.javascript.template.postfix.JSForOfPostfixTemplate#.forof" key=".for" provider="builtin.js" builtin="com.intellij.lang.javascript.template.postfix.JSForOfPostfixTemplate#.forof" />
+  </component>
+</application>

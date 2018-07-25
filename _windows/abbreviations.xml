@@ -7,6 +7,9 @@
       <action id="OpenEditorInOppositeTabGroup">
         <abbreviation name="oop" />
       </action>
+      <action id="EditorToggleCase">
+        <abbreviation name="case" />
+      </action>
       <action id="Arrangement.Rule.Match.Condition.Move.Down">
         <abbreviation name="md" />
       </action>
@@ -24,6 +27,9 @@
       <action id="IntroduceVariable">
         <abbreviation name="exv" />
       </action>
+      <action id="EditorSwapSelectionBoundaries">
+        <abbreviation name="swap" />
+      </action>
       <action id="Arrangement.Rule.Group.Condition.Move.Up">
         <abbreviation name="mu" />
       </action>
@@ -33,6 +39,9 @@
       <action id="VcsShowNextChangeMarker" />
       <action id="JumpToLastWindow">
         <abbreviation name="ltw" />
+      </action>
+      <action id="Debugger.AddToWatch">
+        <abbreviation name="watch" />
       </action>
       <action id="ExtractMethod">
         <abbreviation name="exm" />

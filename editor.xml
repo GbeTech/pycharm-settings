@@ -9,18 +9,18 @@
         <entry key="DjangoTemplate" value="true" />
         <entry key="ECMAScript 6" value="true" />
         <entry key="HTML" value="true" />
-        <entry key="JSON" value="true" />
-        <entry key="JavaScript" value="true" />
-        <entry key="Python" value="true" />
-        <entry key="TypeScript" value="true" />
-        <entry key="XHTML" value="true" />
-        <entry key="XML" value="true" />
-        <entry key="yaml" value="true" />
+        <entry key="JSON" value="false" />
+        <entry key="JavaScript" value="false" />
+        <entry key="Jinja2" value="true" />
+        <entry key="Python" value="false" />
+        <entry key="TypeScript" value="false" />
+        <entry key="XHTML" value="false" />
+        <entry key="XML" value="false" />
+        <entry key="yaml" value="false" />
       </map>
     </option>
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
     <option name="QUICK_DOC_ON_MOUSE_OVER_DELAY_MS" value="1000" />
-    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
     <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
     <option name="ARE_GUTTER_ICONS_SHOWN" value="false" />
     <option name="IS_FOLDING_OUTLINE_SHOWN" value="false" />
@@ -33,6 +33,7 @@
     <option name="IS_DND_ENABLED" value="false" />
     <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
     <option name="SHOW_NOTIFICATION_AFTER_REFORMAT_CODE_ACTION" value="false" />
+    <option name="ADD_CARETS_ON_DOUBLE_CTRL" value="false" />
   </component>
   <component name="JSEditorOptions">
     <option name="ESCAPE_PASTED_TEXT" value="false" />

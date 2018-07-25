@@ -18,7 +18,7 @@
   <action id="Arrangement.Rule.Match.Condition.Move.Down" />
   <action id="Arrangement.Rule.Match.Condition.Move.Up" />
   <action id="Back">
-    <mouse-shortcut keystroke="button4" />
+    <keyboard-shortcut first-keystroke="shift ctrl minus" />
   </action>
   <action id="BaseOnThisFunction" />
   <action id="BrowseWordAtCaretPlugin.AutoHighlight">
@@ -72,9 +72,6 @@
   <action id="DebugClass">
     <keyboard-shortcut first-keystroke="f5" />
   </action>
-  <action id="Debugger.AddToWatch">
-    <keyboard-shortcut first-keystroke="shift alt w" />
-  </action>
   <action id="Debugger.EditTypeSource" />
   <action id="DecrementWindowHeight" />
   <action id="Diff.FocusOppositePane" />
@@ -107,7 +104,7 @@
   <action id="EditorLookupDown" />
   <action id="EditorLookupUp" />
   <action id="EditorMatchBrace">
-    <keyboard-shortcut first-keystroke="ctrl m" />
+    <keyboard-shortcut first-keystroke="ctrl alt w" />
   </action>
   <action id="EditorPasteFromX11" />
   <action id="EditorPasteSimple" />
@@ -121,6 +118,7 @@
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
+  <action id="EditorToggleInsertState" />
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="alt w" />
   </action>
@@ -154,12 +152,8 @@
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="FindNext" />
-  <action id="FindPrevious">
-    <keyboard-shortcut first-keystroke="shift ctrl minus" />
-  </action>
-  <action id="FindWordAtCaret">
-    <keyboard-shortcut first-keystroke="shift ctrl equals" />
-  </action>
+  <action id="FindPrevious" />
+  <action id="FindWordAtCaret" />
   <action id="ForceRunToCursor">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
@@ -167,7 +161,7 @@
     <keyboard-shortcut first-keystroke="alt f11" />
   </action>
   <action id="Forward">
-    <mouse-shortcut keystroke="button5" />
+    <keyboard-shortcut first-keystroke="shift ctrl equals" />
   </action>
   <action id="Generate">
     <keyboard-shortcut first-keystroke="alt g" />
@@ -279,6 +273,7 @@
   <action id="OpenInBrowserGroup">
     <keyboard-shortcut first-keystroke="alt o" />
   </action>
+  <action id="OptimizeImports" />
   <action id="Pause">
     <keyboard-shortcut first-keystroke="ctrl pause" />
   </action>
@@ -303,9 +298,7 @@
     <keyboard-shortcut first-keystroke="shift alt q" />
   </action>
   <action id="RecentChanges" />
-  <action id="RecentFiles">
-    <keyboard-shortcut first-keystroke="ctrl alt q" />
-  </action>
+  <action id="RecentFiles" />
   <action id="ReformatCode">
     <keyboard-shortcut first-keystroke="ctrl alt f" />
   </action>
@@ -396,6 +389,9 @@
   </action>
   <action id="TabShiftActions.StretchUp">
     <keyboard-shortcut first-keystroke="shift ctrl p" />
+  </action>
+  <action id="TabSwitchPlugin.NextVcsChangeAction">
+    <keyboard-shortcut first-keystroke="ctrl alt q" />
   </action>
   <action id="TabSwitchPlugin.SwitchTab">
     <keyboard-shortcut first-keystroke="alt q" />
