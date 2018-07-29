@@ -76,6 +76,7 @@
   <action id="DecrementWindowHeight" />
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DumpLookupElementWeights" />
   <action id="EditSource" />
   <action id="EditSourceInNewWindow" />
@@ -112,7 +113,9 @@
   <action id="EditorScrollToCenter" />
   <action id="EditorScrollUp" />
   <action id="EditorSplitLine" />
-  <action id="EditorStartNewLine" />
+  <action id="EditorStartNewLine">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+  </action>
   <action id="EditorStartNewLineBefore">
     <keyboard-shortcut first-keystroke="shift enter" />
   </action>
@@ -281,6 +284,7 @@
   <action id="PreviousTab">
     <keyboard-shortcut first-keystroke="shift ctrl tab" />
   </action>
+  <action id="PyExecuteCellAction" />
   <action id="PythonCellMode.RunCell">
     <keyboard-shortcut first-keystroke="f9" />
   </action>
@@ -427,6 +431,23 @@
     <keyboard-shortcut first-keystroke="shift f4" />
   </action>
   <action id="XDebugger.SetValue" />
+  <action id="armory.activateArmory">
+    <keyboard-shortcut first-keystroke="clear" />
+    <keyboard-shortcut first-keystroke="begin" />
+  </action>
+  <action id="armory.editElement">
+    <keyboard-shortcut first-keystroke="clear" />
+    <keyboard-shortcut first-keystroke="begin" />
+  </action>
+  <action id="armory.editElementNoFocus" />
+  <action id="armory.groupSelectedElements" />
+  <action id="armory.moveElementDown" />
+  <action id="armory.moveElementUp" />
+  <action id="armory.node.AddAsRootToOther" />
+  <action id="armory.node.AttrBold" />
+  <action id="armory.node.AttrItalic" />
+  <action id="armory.node.AttrUnderline" />
+  <action id="armory.ungroupSelectedElements" />
   <action id="com.jetbrains.python.console.RunPythonConsoleAction">
     <keyboard-shortcut first-keystroke="alt f8" />
   </action>
