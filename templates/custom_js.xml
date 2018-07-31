@@ -44,7 +44,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="listen" value="add_listener('$E$', 'click', ()=&gt;{&#10;    $DO$&#10;    });" description="add listener with click default" toReformat="false" toShortenFQNames="true">
+  <template name="on" value="on('$E$', 'click', ()=&gt;{&#10;    $DO$&#10;    });" description="add listener with click default" toReformat="false" toShortenFQNames="true">
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="DO" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -66,6 +66,13 @@
     <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="onv" value="on($E$, 'click', ()=&gt;{&#10;    $DO$&#10;    });" description="add listener with click default to var" toReformat="false" toShortenFQNames="true">
+    <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DO" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
