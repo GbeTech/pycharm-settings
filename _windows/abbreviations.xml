@@ -7,11 +7,11 @@
       <action id="OpenEditorInOppositeTabGroup">
         <abbreviation name="oop" />
       </action>
-      <action id="EditorToggleCase">
-        <abbreviation name="case" />
-      </action>
       <action id="Arrangement.Rule.Match.Condition.Move.Down">
         <abbreviation name="md" />
+      </action>
+      <action id="ScrollFromSource">
+        <abbreviation name="sfs" />
       </action>
       <action id="ConvertIndentsToTabs">
         <abbreviation name="stt" />
@@ -19,8 +19,8 @@
       <action id="MoveEditorToOppositeTabGroup">
         <abbreviation name="mo" />
       </action>
-      <action id="MoveTabDown">
-        <abbreviation name="mdown" />
+      <action id="JumpToLastWindow">
+        <abbreviation name="ltw" />
       </action>
       <action id="NextSplitter" />
       <action id="PrevSplitter" />
@@ -37,16 +37,19 @@
         <abbreviation name="dist" />
       </action>
       <action id="VcsShowNextChangeMarker" />
-      <action id="JumpToLastWindow">
-        <abbreviation name="ltw" />
+      <action id="MoveTabDown">
+        <abbreviation name="mdown" />
       </action>
       <action id="Debugger.AddToWatch">
         <abbreviation name="watch" />
       </action>
+      <action id="EditorToggleCase">
+        <abbreviation name="case" />
+      </action>
+      <action id="VcsShowPrevChangeMarker" />
       <action id="ExtractMethod">
         <abbreviation name="exm" />
       </action>
-      <action id="VcsShowPrevChangeMarker" />
     </abbreviations>
   </component>
 </application>
