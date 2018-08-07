@@ -1,5 +1,9 @@
 <application>
   <component name="PostfixTemplates">
+    <template id="fore@userDefined" key=".fore" provider="builtin.js" language-level="ES6" topmost="false">
+      <conditions />
+      <template name="fakeKey" value="$EXPR$.forEach(e=&gt;{$END$});" toReformat="true" toShortenFQNames="true" />
+    </template>
     <template id="com.intellij.lang.javascript.template.postfix.JSForOfPostfixTemplate#.forof" key=".for" provider="builtin.js" builtin="com.intellij.lang.javascript.template.postfix.JSForOfPostfixTemplate#.forof" />
   </component>
 </application>

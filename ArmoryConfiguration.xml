@@ -1,0 +1,37 @@
+<application>
+  <component name="ArmoryConfiguration">
+    <option name="TREE_FONT_SIZE_ENABLED" value="true" />
+    <option name="TREE_FONT_SIZE" value="18" />
+    <sortingScheme>
+      <context name="files" default="Standard">
+        <scheme name="Standard">
+          <node name="groups" />
+          <node name="folder" />
+          <node name="file" />
+        </scheme>
+      </context>
+      <context name="python_class" default="Standard">
+        <scheme name="Standard">
+          <node name="groups" />
+          <node name="class" />
+          <node name="constructor" />
+          <node name="method" />
+        </scheme>
+      </context>
+      <context name="python_file" default="Standard">
+        <scheme name="Standard">
+          <node name="groups" />
+          <node name="class" />
+          <node name="function" />
+        </scheme>
+      </context>
+    </sortingScheme>
+    <licenses>
+      <license>ZleeRzrzg0bGgh0tfPzzRDTInum+J2iL2wUpEKbgDfR7ayPVggn1aX2BtAmU3Cv3tEbh5e1rXm5U
+LW0n8Gld0J2MIht5OTb5Q7De/BPMDPqmKetdLyb49VDtEmEqDoqEE08GUDtU8xTWjJyjXuEc2oYt
+7A47bhBy5Uzj+PU0niJudW1iZXI6NTMzMjMzCnRpdGxlOlRyaWFsIExpY2Vuc2UKdHlwZTpjb21t
+b24KbGV2ZWw6dHJpYWwKcGxhdGZvcm06UHlDaGFybQpmZWF0dXJlczpiYXNlLHB5dGhvbl9leHQK
+ZXhwaXJlOjE1MzUzOTY1MTA=</license>
+    </licenses>
+  </component>
+</application>

@@ -433,10 +433,7 @@
     <keyboard-shortcut first-keystroke="shift f4" />
   </action>
   <action id="XDebugger.SetValue" />
-  <action id="armory.activateArmory">
-    <keyboard-shortcut first-keystroke="clear" />
-    <keyboard-shortcut first-keystroke="begin" />
-  </action>
+  <action id="armory.activateArmory" />
   <action id="armory.editElement">
     <keyboard-shortcut first-keystroke="clear" />
     <keyboard-shortcut first-keystroke="begin" />
