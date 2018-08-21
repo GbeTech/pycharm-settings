@@ -9,7 +9,6 @@
       <shortuct text="ENTER" />
     </macro>
     <macro name="ToTabs, Reformat and Save">
-      <action id="ConvertIndentsToTabs" />
       <action id="ReformatCode" />
       <action id="SaveAll" />
     </macro>
