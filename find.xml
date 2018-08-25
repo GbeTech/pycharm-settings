@@ -19,10 +19,10 @@
     <mask>*.css</mask>
     <mask>.css</mask>
     <mask>.js</mask>
-    <mask>*.html</mask>
     <mask>*.html, *.js</mask>
     <mask>*.js, *.html</mask>
     <mask>*.py</mask>
+    <mask>*.html</mask>
     <mask>*.js</mask>
     <mask>*</mask>
   </component>
