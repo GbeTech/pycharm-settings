@@ -12,7 +12,7 @@
         <entry key="JSON" value="false" />
         <entry key="JavaScript" value="false" />
         <entry key="Jinja2" value="true" />
-        <entry key="Python" value="false" />
+        <entry key="Python" value="true" />
         <entry key="TypeScript" value="false" />
         <entry key="XHTML" value="false" />
         <entry key="XML" value="false" />
