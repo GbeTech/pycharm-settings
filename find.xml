@@ -7,7 +7,7 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.py" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -23,8 +23,8 @@
     <mask>*.js, *.html</mask>
     <mask>*.py, *.js</mask>
     <mask>*.html</mask>
-    <mask>*.js</mask>
     <mask>*</mask>
     <mask>*.py</mask>
+    <mask>*.js</mask>
   </component>
 </application>
