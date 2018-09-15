@@ -21,8 +21,8 @@
     <mask>*.py, *.js</mask>
     <mask>*.html</mask>
     <mask>*.js, *.html</mask>
-    <mask>*.js</mask>
     <mask>*</mask>
+    <mask>*.js</mask>
     <mask>*.py</mask>
   </component>
 </application>
