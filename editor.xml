@@ -57,7 +57,7 @@
       <option name="FOREGROUND" value="498aca" />
       <option name="FONT_TYPE" value="3" />
     </pattern>
-    <pattern icon="question" useCustomColors="true" case-sensitive="true" pattern="\[\*{2}[A-Z].*$">
+    <pattern icon="question" useCustomColors="true" pattern="\[\*{2}[A-Z].*$">
       <option name="FOREGROUND" value="56a6f2" />
       <option name="FONT_TYPE" value="3" />
       <option name="EFFECT_COLOR" value="56a6f2" />
