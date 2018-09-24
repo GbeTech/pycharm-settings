@@ -174,13 +174,20 @@
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="ctrl comma" />
+    <keyboard-shortcut first-keystroke="ctrl alt f" second-keystroke="c" />
+  </action>
   <action id="GotoCustomRegion" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
     <keyboard-shortcut first-keystroke="shift f2" />
     <mouse-shortcut keystroke="control button1" />
   </action>
-  <action id="GotoFile" />
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="ctrl period" />
+    <keyboard-shortcut first-keystroke="ctrl alt f" second-keystroke="f" />
+  </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="alt v" />
   </action>
@@ -193,6 +200,7 @@
   </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="ctrl slash" />
+    <keyboard-shortcut first-keystroke="ctrl alt f" second-keystroke="s" />
   </action>
   <action id="GotoTest" />
   <action id="HideActiveWindow" />
@@ -213,6 +221,7 @@
   <action id="IncrementWindowHeight" />
   <action id="InsertLiveTemplate" />
   <action id="IntroduceConstant" />
+  <action id="IntroduceField" />
   <action id="IntroduceParameter" />
   <action id="IntroduceVariable" />
   <action id="IpnbRunAllCellsAction" />
@@ -305,9 +314,7 @@
   </action>
   <action id="RecentChanges" />
   <action id="RecentFiles" />
-  <action id="ReformatCode">
-    <keyboard-shortcut first-keystroke="ctrl alt f" />
-  </action>
+  <action id="ReformatCode" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
   </action>
@@ -343,6 +350,10 @@
   </action>
   <action id="ShowContent" />
   <action id="ShowErrorDescription" />
+  <action id="ShowNavBar">
+    <keyboard-shortcut first-keystroke="alt home" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt a" />
+  </action>
   <action id="ShowReformatFileDialog" />
   <action id="ShowSettings">
     <keyboard-shortcut first-keystroke="shift alt s" />
@@ -423,8 +434,12 @@
     <keyboard-shortcut first-keystroke="ctrl e" />
   </action>
   <action id="Vcs.UpdateProject" />
-  <action id="VcsShowNextChangeMarker" />
-  <action id="VcsShowPrevChangeMarker" />
+  <action id="VcsShowNextChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt equals" />
+  </action>
+  <action id="VcsShowPrevChangeMarker">
+    <keyboard-shortcut first-keystroke="shift ctrl alt minus" />
+  </action>
   <action id="ViewSource" />
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.JumpToSource" />
