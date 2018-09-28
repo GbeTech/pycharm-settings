@@ -61,6 +61,7 @@
   <action id="CompileDirty" />
   <action id="Console.Execute.Multiline" />
   <action id="Console.History.Browse" />
+  <action id="Console.TableResult.EditFilterCriteria" />
   <action id="ContextHelp" />
   <action id="ConvertIndentsToTabs">
     <keyboard-shortcut first-keystroke="shift ctrl alt y" />
@@ -152,6 +153,10 @@
   <action id="ExtractMethod" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
+  </action>
+  <action id="FileStructurePopup">
+    <keyboard-shortcut first-keystroke="ctrl f12" />
+    <keyboard-shortcut first-keystroke="shift ctrl alt f" />
   </action>
   <action id="Find">
     <keyboard-shortcut first-keystroke="ctrl f" />
