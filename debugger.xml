@@ -16,8 +16,8 @@
       <debugger id="python">
         <configuration>
           <option name="librariesFilterEnabled" value="true" />
-          <option name="loadValuesAsync" value="false" />
           <option name="simplifiedView" value="false" />
+          <option name="valuesPolicy" value="SYNC" />
           <option name="watchReturnValues" value="true" />
         </configuration>
       </debugger>
