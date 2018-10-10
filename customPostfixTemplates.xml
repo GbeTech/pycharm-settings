@@ -69,6 +69,16 @@
               </list>
             </value>
           </entry>
+          <entry key="python">
+            <value>
+              <list>
+                <VFile>
+                  <option name="enabled" value="true" />
+                  <option name="file" value="${PLUGIN}\python\python_postfix_templates.postfixTemplates" />
+                </VFile>
+              </list>
+            </value>
+          </entry>
           <entry key="scala">
             <value>
               <list>
