@@ -1,6 +1,5 @@
 <templateSet group="Custom Postfix Templates">
-  <template name="_" value="$var$ -&gt; $var$" description="lambda" toReformat="false" toShortenFQNames="true">
-    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="LT" value="&quot;WHAT&quot;" description="lambda" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="Python" value="true" />
