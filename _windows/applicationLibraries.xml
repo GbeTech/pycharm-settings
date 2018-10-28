@@ -194,6 +194,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="screenfull" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_screenfull.js_3.3.3_screenfull.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_screenfull.js_3.3.3_screenfull.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="tempusdominus-bootstrap-4" type="javaScript">
       <properties>
         <sourceFilesUrls>
