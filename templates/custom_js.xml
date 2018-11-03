@@ -9,7 +9,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cll" value="console.log({$VAR1$});" description="console.log('$selection$: ', $selection$)" toReformat="false" toShortenFQNames="true">
+  <template name="cll" value="console.log({'$VAR1$'$END$:$VAR1$});" description="console.log('$selection$: ', $selection$)" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
