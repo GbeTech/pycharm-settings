@@ -54,11 +54,11 @@
       <option name="FOREGROUND" value="498aca" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern useCustomColors="true" pattern="[ ]{1}\[\*{1}[A-Z].*$">
+    <pattern useCustomColors="true" pattern="\[[*][a-zA-Z0-9 ]*\]">
       <option name="FOREGROUND" value="498aca" />
       <option name="FONT_TYPE" value="3" />
     </pattern>
-    <pattern icon="question" useCustomColors="true" pattern="\[\*{2}[A-Z].*$">
+    <pattern icon="question" useCustomColors="true" pattern="\[[*]{2}[a-zA-Z0-9 ]*\]">
       <option name="FOREGROUND" value="56a6f2" />
       <option name="FONT_TYPE" value="3" />
       <option name="EFFECT_COLOR" value="56a6f2" />
