@@ -4,9 +4,7 @@
       <action id="ToggleDistractionFreeMode">
         <abbreviation name="dist" />
       </action>
-      <action id="ToggleFullScreen">
-        <abbreviation name="fulls" />
-      </action>
+      <action id="ToggleFullScreen" />
       <action id="ScrollFromSource">
         <abbreviation name="sfs" />
       </action>
@@ -19,8 +17,8 @@
       <action id="MoveEditorToOppositeTabGroup">
         <abbreviation name="moveopp" />
       </action>
-      <action id="MoveTabDown">
-        <abbreviation name="mdown" />
+      <action id="JumpToLastWindow">
+        <abbreviation name="ltw" />
       </action>
       <action id="NextSplitter" />
       <action id="PrevSplitter" />
@@ -37,8 +35,8 @@
         <abbreviation name="openopp" />
       </action>
       <action id="VcsShowNextChangeMarker" />
-      <action id="JumpToLastWindow">
-        <abbreviation name="ltw" />
+      <action id="MoveTabDown">
+        <abbreviation name="mdown" />
       </action>
       <action id="Debugger.AddToWatch">
         <abbreviation name="watch" />
