@@ -427,6 +427,9 @@
   <action id="ToggleLineBreakpoint">
     <keyboard-shortcut first-keystroke="f4" />
   </action>
+  <action id="ToggleMainMenuAction">
+    <keyboard-shortcut first-keystroke="shift ctrl f11" />
+  </action>
   <action id="ToggleWindowedMode">
     <keyboard-shortcut first-keystroke="shift ctrl alt w" second-keystroke="w" />
   </action>
