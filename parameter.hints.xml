@@ -6,6 +6,7 @@
         <added pattern="by_class(name)" />
         <added pattern="HTMLElement.addEventListener(type,listener,options)" />
       </blacklist>
+      <blacklist language="JavaScript" />
     </blacklists>
   </component>
 </application>

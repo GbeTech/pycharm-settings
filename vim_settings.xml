@@ -1,0 +1,53 @@
+<application>
+  <component name="VimSettings">
+    <state version="4" enabled="true" />
+    <globalmarks />
+    <filemarks>
+      <file name="C:/Sync/Code/Python/Talship/sport-bingo-new/handlers/Operator.py" timestamp="1538134791319">
+        <mark key="[" line="167" column="9" />
+        <mark key="]" line="167" column="9" />
+        <mark key="." line="167" column="9" />
+        <mark key="^" line="167" column="9" />
+      </file>
+      <file name="/Dummy.txt" timestamp="1542824512701">
+        <mark key="[" line="0" column="0" />
+      </file>
+      <file name="C:/Sync/Code/Python/Talship/sport-bingo/handlers/admin_page.py" timestamp="1542824408551">
+        <mark key="[" line="74" column="17" />
+      </file>
+      <file name="C:/Sync/Code/Python/Talship/sport-bingo/scheme.py" timestamp="1542824362654">
+        <mark key="[" line="489" column="18" />
+      </file>
+      <file name="C:/Sync/Code/Python/Talship/sport-bingo/templates/js/operator/operator.show.operate.js" timestamp="1542824462667">
+        <mark key="[" line="42" column="11" />
+      </file>
+      <file name="C:/Sync/Code/Python/Talship/sport-bingo/handlers/user_page.py" timestamp="1542824435841">
+        <mark key="[" line="74" column="10" />
+      </file>
+    </filemarks>
+    <jumps />
+    <registers>
+      <register name="&quot;" type="4">
+        <text>self.response.out.wri</text>
+      </register>
+      <register name="-" type="4">
+        <text>self.response.out.wri</text>
+      </register>
+    </registers>
+    <search>
+      <last-dir>0</last-dir>
+      <show-last>false</show-last>
+    </search>
+    <history>
+      <history-search />
+      <history-cmd />
+      <history-expr />
+      <history-input />
+    </history>
+    <shortcut-conflicts>
+      <shortcut-conflict owner="ide">
+        <text>ctrl pressed S</text>
+      </shortcut-conflict>
+    </shortcut-conflicts>
+  </component>
+</application>
