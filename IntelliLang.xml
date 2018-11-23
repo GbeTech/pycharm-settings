@@ -1,0 +1,8 @@
+<application>
+  <component name="LanguageInjectionConfiguration">
+    <injection language="ECMAScript 6" injector-id="xml">
+      <display-name>polyline/@onclick</display-name>
+      <place><![CDATA[xmlAttribute().withLocalName(string().equalTo("onclick")).withParent(xmlTag().withLocalName(string().equalTo("polyline")).withNamespace(string().equalTo("http://www.w3.org/2000/svg")))]]></place>
+    </injection>
+  </component>
+</application>
