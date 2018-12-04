@@ -213,6 +213,17 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="sweetalert" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_sweetalert_dist_sweetalert.min.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_sweetalert_dist_sweetalert.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="sweetalert2.all" type="javaScript">
       <properties>
         <sourceFilesUrls>
