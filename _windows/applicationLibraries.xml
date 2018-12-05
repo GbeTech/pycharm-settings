@@ -22,17 +22,6 @@
       </CLASSES>
       <SOURCES />
     </library>
-    <library name="bootstrap-datetimepicker" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_bootstrap-datetimepicker_4.17.47_js_bootstrap-datetimepicker.min.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_bootstrap-datetimepicker_4.17.47_js_bootstrap-datetimepicker.min.js" />
-      </CLASSES>
-      <SOURCES />
-    </library>
     <library name="firebase" type="javaScript">
       <properties>
         <sourceFilesUrls>
@@ -146,21 +135,6 @@
       </DOCUMENTATION>
       <SOURCES />
     </library>
-    <library name="jquery-ui" type="javaScript">
-      <properties>
-        <option name="frameworkName" value="jQuery" />
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.jquery.com_ui_1.11.4_jquery-ui.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.jquery.com_ui_1.11.4_jquery-ui.js" />
-      </CLASSES>
-      <DOCUMENTATION>
-        <root url="http://api.jquery.com" />
-      </DOCUMENTATION>
-      <SOURCES />
-    </library>
     <library name="jquery.modal" type="javaScript">
       <properties>
         <option name="frameworkName" value="jQuery" />
@@ -176,28 +150,6 @@
       </DOCUMENTATION>
       <SOURCES />
     </library>
-    <library name="jsgrid" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_jsgrid_1.5.3_jsgrid.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_jsgrid_1.5.3_jsgrid.js" />
-      </CLASSES>
-      <SOURCES />
-    </library>
-    <library name="materialize" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_materialize_1.0.0_js_materialize.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_materialize_1.0.0_js_materialize.js" />
-      </CLASSES>
-      <SOURCES />
-    </library>
     <library name="popper" type="javaScript">
       <properties>
         <sourceFilesUrls>
@@ -210,17 +162,6 @@
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.14.0_umd_popper.js" />
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.14.3_umd_popper.js" />
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_popper.js_1.14.6_umd_popper.js" />
-      </CLASSES>
-      <SOURCES />
-    </library>
-    <library name="screenfull" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_screenfull.js_3.3.3_screenfull.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_screenfull.js_3.3.3_screenfull.js" />
       </CLASSES>
       <SOURCES />
     </library>
