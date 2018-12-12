@@ -52,7 +52,7 @@
       <option name="FOREGROUND" value="c1170c" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern useCustomColors="true" case-sensitive="true" pattern="[ ]{1}\[[A-Z].*$">
+    <pattern useCustomColors="true" case-sensitive="true" pattern="[ ]{1}\[[A-Z\$].*$">
       <option name="FOREGROUND" value="498aca" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
