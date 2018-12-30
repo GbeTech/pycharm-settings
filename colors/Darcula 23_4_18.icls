@@ -4,7 +4,7 @@
     <property name="created">2018-04-23T19:22:01</property>
     <property name="ide">PyCharmCore</property>
     <property name="ideVersion">2018.1.0.0</property>
-    <property name="modified">2018-12-28T15:55:10</property>
+    <property name="modified">2018-12-30T17:49:41</property>
     <property name="originalScheme">_@user_Darcula</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -13,6 +13,7 @@
   <option name="CONSOLE_FONT_NAME" value="Monospaced" />
   <colors>
     <option name="GUTTER_BACKGROUND" value="2f3133" />
+    <option name="SELECTION_BACKGROUND" value="23468a" />
   </colors>
   <attributes>
     <option name="BRACE_ATTR">
@@ -32,9 +33,8 @@
     </option>
     <option name="BROWSEWORDATCARET">
       <value>
-        <option name="BACKGROUND" value="232346" />
-        <option name="ERROR_STRIPE_COLOR" value="62ff" />
-        <option name="EFFECT_TYPE" value="4" />
+        <option name="BACKGROUND" value="183365" />
+        <option name="ERROR_STRIPE_COLOR" value="183365" />
       </value>
     </option>
     <option name="CUSP_BRACKETS_ATTR">
