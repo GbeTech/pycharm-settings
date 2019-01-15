@@ -25,6 +25,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Sort code (A-Z)">
+        <Item>
+          <IdeaActionID>CodeBlockSorter.SortCaseInsensitiveAction</IdeaActionID>
+          <ShortCut>'Alt+Shift+L'</ShortCut>
+          <Description>Sort code (A-Z)</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'sport-bingo'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
