@@ -57,6 +57,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'npm freeze'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
+          <Description>Stop 'npm freeze'</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'sport-bingo'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
