@@ -62,16 +62,16 @@
       <option name="EFFECT_COLOR" value="56a6f2" />
       <option name="EFFECT_TYPE" value="1" />
     </pattern>
-    <pattern useCustomColors="true" pattern="(?&lt;=\*)[^\*]*">
+    <pattern useCustomColors="true" pattern="(?&lt;=\*)[^\*#]*">
       <option name="FOREGROUND" value="498aca" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern useCustomColors="true" pattern="(?&lt;=\*\*)[^\*]*">
+    <pattern useCustomColors="true" pattern="(?&lt;=\*\*)[^\*#]*">
       <option name="FOREGROUND" value="498aca" />
       <option name="FONT_TYPE" value="3" />
       <option name="EFFECT_TYPE" value="1" />
     </pattern>
-    <pattern icon="important" useCustomColors="true" pattern="(?&lt;=\*\*\*)[^\*]*">
+    <pattern icon="important" useCustomColors="true" pattern="(?&lt;=\*\*\*)[^\*#]*">
       <option name="FOREGROUND" value="56a6f2" />
       <option name="FONT_TYPE" value="3" />
       <option name="EFFECT_COLOR" value="56a6f2" />
