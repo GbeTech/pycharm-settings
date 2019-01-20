@@ -16,19 +16,19 @@
         <entry key="firstLevelHorizontalInset" value="48" />
         <entry key="firstLevelTextColor@" value="-16777216" />
         <entry key="firstLevelVerticalInset" value="32" />
-        <entry key="font@" value="Dialog:1:18" />
+        <entry key="font@" value="Courier New:0:18" />
         <entry key="gridColor@" value="-12364185" />
         <entry key="gridStep" value="32" />
         <entry key="horizontalBlockGap" value="5" />
         <entry key="jumpLinkColor@" value="-16711681" />
         <entry key="jumpLinkWidth" value="1069547520" />
         <entry key="otherLevelBackgroundColor@" value="-131587" />
-        <entry key="otherLevelHorizontalInset" value="32" />
+        <entry key="otherLevelHorizontalInset" value="36" />
         <entry key="otherLevelTextColor@" value="-16777216" />
-        <entry key="otherLevelVerticalInset" value="16" />
+        <entry key="otherLevelVerticalInset" value="18" />
         <entry key="paperColor@" value="-10388588" />
         <entry key="paperMargins" value="20" />
-        <entry key="renderQuality@" value="DEFAULT" />
+        <entry key="renderQuality@" value="QUALITY" />
         <entry key="rootBackgroundColor@" value="-16573903" />
         <entry key="rootTextColor@" value="-1" />
         <entry key="scale" value="4607182418800017408" />
