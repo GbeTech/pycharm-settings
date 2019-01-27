@@ -209,5 +209,16 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="util" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/global-types/node_modules/@types/util" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/global-types/node_modules/@types/util" />
+      </CLASSES>
+      <SOURCES />
+    </library>
   </component>
 </application>
