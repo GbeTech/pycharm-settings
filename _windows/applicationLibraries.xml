@@ -4,6 +4,10 @@
       <CLASSES />
       <SOURCES />
     </library>
+    <library name="@types/jquery" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="@types/youtube" type="javaScript">
       <CLASSES />
       <SOURCES />
@@ -195,17 +199,6 @@
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdn.jsdelivr.net_npm_sweetalert2@7.29.2_dist_sweetalert2.all.js" />
-      </CLASSES>
-      <SOURCES />
-    </library>
-    <library name="tempusdominus-bootstrap-4" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tempusdominus-bootstrap-4_5.0.0-alpha14_js_tempusdominus-bootstrap-4.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tempusdominus-bootstrap-4_5.0.0-alpha14_js_tempusdominus-bootstrap-4.js" />
       </CLASSES>
       <SOURCES />
     </library>
