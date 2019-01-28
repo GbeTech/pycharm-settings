@@ -209,6 +209,18 @@
       </CLASSES>
       <SOURCES />
     </library>
+    <library name="Tone" type="javaScript">
+      <properties>
+        <option name="frameworkName" value="Node.js Core Modules" />
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tone_13.5.5_Tone.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_tone_13.5.5_Tone.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
     <library name="util" type="javaScript">
       <properties>
         <sourceFilesUrls>
