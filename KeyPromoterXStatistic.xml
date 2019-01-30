@@ -78,7 +78,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
           <Description>Stop 'nonblocking_receive'</Description>
-          <Count>2</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'npm freeze'">
