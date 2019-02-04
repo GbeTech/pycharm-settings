@@ -1,10 +1,10 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
-      <action id="ToggleFullScreen" />
-      <action id="OpenEditorInOppositeTabGroup">
-        <abbreviation name="openopp" />
+      <action id="ToggleDistractionFreeMode">
+        <abbreviation name="dist" />
       </action>
+      <action id="ToggleFullScreen" />
       <action id="ScrollFromSource">
         <abbreviation name="sfs" />
       </action>
@@ -21,10 +21,10 @@
         <abbreviation name="stt" />
       </action>
       <action id="MoveEditorToOppositeTabGroup">
-        <abbreviation name="moveopp" />
+        <abbreviation name="oog" />
       </action>
-      <action id="MoveTabDown">
-        <abbreviation name="mdown" />
+      <action id="JumpToLastWindow">
+        <abbreviation name="ltw" />
       </action>
       <action id="NextSplitter" />
       <action id="PrevSplitter" />
@@ -37,12 +37,12 @@
       <action id="Arrangement.Rule.Group.Condition.Move.Up">
         <abbreviation name="mu" />
       </action>
-      <action id="ToggleDistractionFreeMode">
-        <abbreviation name="dist" />
+      <action id="OpenEditorInOppositeTabGroup">
+        <abbreviation name="openopp" />
       </action>
       <action id="VcsShowNextChangeMarker" />
-      <action id="JumpToLastWindow">
-        <abbreviation name="ltw" />
+      <action id="MoveTabDown">
+        <abbreviation name="mdown" />
       </action>
       <action id="Debugger.AddToWatch">
         <abbreviation name="watch" />
