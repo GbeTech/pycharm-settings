@@ -325,6 +325,9 @@
   <action id="RenameFile">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl f" />
   </action>
+  <action id="ReopenClosedTab">
+    <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
   <action id="RerunTests" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
@@ -455,6 +458,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt minus" />
   </action>
   <action id="ViewSource" />
+  <action id="WebOpenInAction">
+    <keyboard-shortcut first-keystroke="ctrl alt f2" />
+  </action>
   <action id="XDebugger.EditWatch" />
   <action id="XDebugger.JumpToSource" />
   <action id="XDebugger.JumpToTypeSource" />
@@ -502,4 +508,6 @@
     <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="tasks.close" />
+  <action id="tasks.goto" />
+  <action id="tasks.open.in.browser" />
 </keymap>
