@@ -9,6 +9,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="New Watch...">
+        <Item>
+          <IdeaActionID>XDebugger.NewWatch</IdeaActionID>
+          <ShortCut>'Insert'</ShortCut>
+          <Description>New Watch...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="New...">
         <Item>
           <IdeaActionID>NewElement</IdeaActionID>
@@ -121,12 +129,20 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'scratch_55'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
+          <Description>Stop 'scratch_55'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'sport-bingo'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
           <Description>Stop 'sport-bingo'</Description>
-          <Count>26</Count>
+          <Count>27</Count>
         </Item>
       </Statistic>
       <Statistic Action="VCS Operations Popup...">
