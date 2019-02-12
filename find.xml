@@ -1,13 +1,13 @@
 <application>
   <component name="FindSettings">
-    <option name="customScope" value="Operator" />
-    <option name="defaultScopeName" value="Operator" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="localCaseSensitive" value="true" />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="Operator" />
-    <option name="FILE_MASK" value="*.js" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.py" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -27,9 +27,9 @@
     <mask>*.js, *.css</mask>
     <mask>*.js, *.css, *.html</mask>
     <mask>*.js, *.py</mask>
-    <mask>*.py</mask>
     <mask>*</mask>
     <mask>*.css</mask>
     <mask>*.js</mask>
+    <mask>*.py</mask>
   </component>
 </application>
