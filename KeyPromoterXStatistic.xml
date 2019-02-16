@@ -137,14 +137,6 @@
           <Count>1</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Stop 'bin\www'">
-        <Item>
-          <IdeaActionID>Stop</IdeaActionID>
-          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
-          <Description>Stop 'bin\www'</Description>
-          <Count>2</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Stop 'main'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -249,6 +241,14 @@
           <ShortCut>'F12' or 'Shift+F2' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'bin\www'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
+          <Description>Stop 'bin\www'</Description>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
