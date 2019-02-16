@@ -33,6 +33,14 @@
           <Count>7</Count>
         </Item>
       </Statistic>
+      <Statistic Action="New Project...">
+        <Item>
+          <IdeaActionID>NewDirectoryProject</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+N'</ShortCut>
+          <Description>New Project...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="New Watch...">
         <Item>
           <IdeaActionID>XDebugger.NewWatch</IdeaActionID>
