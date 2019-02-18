@@ -57,6 +57,14 @@
           <Count>7</Count>
         </Item>
       </Statistic>
+      <Statistic Action="File Path">
+        <Item>
+          <IdeaActionID>ShowFilePath</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+F12'</ShortCut>
+          <Description>File Path</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="New Project...">
         <Item>
           <IdeaActionID>NewDirectoryProject</IdeaActionID>
