@@ -39,7 +39,6 @@
   <JSCodeStyleSettings version="0">
     <option name="FORCE_SEMICOLON_STYLE" value="true" />
     <option name="FILE_NAME_STYLE" value="CAMEL_CASE" />
-    <option name="REFORMAT_C_STYLE_COMMENTS" value="true" />
     <option name="VAR_DECLARATION_WRAP" value="0" />
     <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
     <option name="SPACES_WITHIN_IMPORTS" value="true" />
