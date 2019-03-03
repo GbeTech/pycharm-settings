@@ -206,7 +206,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
           <Description>Stop 'Main'</Description>
-          <Count>20</Count>
+          <Count>21</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'delete'">
