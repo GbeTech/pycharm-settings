@@ -217,6 +217,14 @@
           <Count>37</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'aws_s3'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
+          <Description>Stop 'aws_s3'</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'delete'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
