@@ -5,7 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -26,8 +26,8 @@
     <mask>*.js, *.py</mask>
     <mask>*.py, *.js</mask>
     <mask>*.py</mask>
-    <mask>*.js</mask>
     <mask>*.css</mask>
     <mask>*</mask>
+    <mask>*.js</mask>
   </component>
 </application>
