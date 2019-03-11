@@ -178,10 +178,6 @@
   <action id="Git.Reword.Commit">
     <keyboard-shortcut first-keystroke="shift f6" />
   </action>
-  <action id="GotoClass">
-    <keyboard-shortcut first-keystroke="ctrl comma" />
-    <keyboard-shortcut first-keystroke="ctrl alt f" second-keystroke="c" />
-  </action>
   <action id="GotoCustomRegion" />
   <action id="GotoDeclaration">
     <keyboard-shortcut first-keystroke="f12" />
@@ -189,7 +185,6 @@
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="ctrl period" />
-    <keyboard-shortcut first-keystroke="ctrl alt f" second-keystroke="f" />
   </action>
   <action id="GotoLine">
     <keyboard-shortcut first-keystroke="alt v" />
@@ -203,7 +198,6 @@
   </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="ctrl slash" />
-    <keyboard-shortcut first-keystroke="ctrl alt f" second-keystroke="s" />
   </action>
   <action id="GotoTest" />
   <action id="HideActiveWindow" />
@@ -306,6 +300,7 @@
   </action>
   <action id="PythonCellMode.RunCellMoveNext" />
   <action id="PythonCellMode.RunLine" />
+  <action id="QuickChangeScheme" />
   <action id="QuickJumpAction" />
   <action id="QuickJumpSelectAction" />
   <action id="Rainbow.ScopeHighlightingAction">
