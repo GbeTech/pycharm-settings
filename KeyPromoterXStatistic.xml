@@ -97,6 +97,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Force Run to Cursor">
+        <Item>
+          <IdeaActionID>ForceRunToCursor</IdeaActionID>
+          <ShortCut>'F8'</ShortCut>
+          <Description>Force Run to Cursor</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="New Project...">
         <Item>
           <IdeaActionID>NewDirectoryProject</IdeaActionID>
