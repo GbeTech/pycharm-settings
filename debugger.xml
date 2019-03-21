@@ -5,7 +5,6 @@
       <option name="valueLookupDelay" value="100" />
     </data-views>
     <general>
-      <option name="hideDebuggerOnProcessTermination" value="true" />
       <scroll-to-center>true</scroll-to-center>
     </general>
     <debuggers>
