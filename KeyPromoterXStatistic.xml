@@ -145,6 +145,14 @@
           <Count>10</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Pause Program">
+        <Item>
+          <IdeaActionID>Pause</IdeaActionID>
+          <ShortCut>'Ctrl+Pause'</ShortCut>
+          <Description>Pause Program</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Remove Watch">
         <Item>
           <IdeaActionID>XDebugger.RemoveWatch</IdeaActionID>
@@ -358,7 +366,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
           <Description>Stop 'testermain'</Description>
-          <Count>9</Count>
+          <Count>13</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'trim_and_force_silence'">
