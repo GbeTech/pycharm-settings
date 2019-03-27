@@ -110,7 +110,7 @@
           <IdeaActionID>ForceRunToCursor</IdeaActionID>
           <ShortCut>'F8'</ShortCut>
           <Description>Force Run to Cursor</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Project...">
@@ -262,7 +262,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
           <Description>Stop 'awslambdadeploy'</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'delete'">
