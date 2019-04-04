@@ -487,6 +487,14 @@
   </action>
   <action id="com.mnw.tabmover.actions.MoveFocusToNextWindow" />
   <action id="com.mnw.tabmover.actions.MoveFocusToPreviousWindow" />
+  <action id="com.mnw.tabmover.actions.MovePinnedTabsToFirst" />
+  <action id="com.mnw.tabmover.actions.MoveTabToFirstAction" />
+  <action id="com.mnw.tabmover.actions.MoveTabToLastAction" />
+  <action id="com.mnw.tabmover.actions.MoveTabToNewWindow" />
+  <action id="com.mnw.tabmover.actions.MoveTabToNextWindow" />
+  <action id="com.mnw.tabmover.actions.MoveTabToPreviousWindow" />
+  <action id="com.mnw.tabmover.actions.ShowTabMoveActions" />
+  <action id="com.mnw.tabmover.actions.TogglePinOnAllOpenTabsAction" />
   <action id="context.load" />
   <action id="context.save" />
   <action id="editRunConfigurations">
