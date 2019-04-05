@@ -297,6 +297,14 @@
           <Count>38</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'merge_on_off_txt_files'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
+          <Description>Stop 'merge_on_off_txt_files'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'new'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
