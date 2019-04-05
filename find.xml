@@ -19,7 +19,6 @@
     <mask>.css</mask>
     <mask>.js</mask>
     <mask>*.html, *.js</mask>
-    <mask>*.js, *.html</mask>
     <mask>*.css, *.js</mask>
     <mask>*.*</mask>
     <mask>*.html</mask>
@@ -30,6 +29,7 @@
     <mask>*</mask>
     <mask>*.css</mask>
     <mask>*.py</mask>
+    <mask>*.js, *.html</mask>
     <mask>*.js</mask>
   </component>
 </application>
