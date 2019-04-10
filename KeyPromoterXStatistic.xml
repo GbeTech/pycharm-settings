@@ -118,7 +118,7 @@
           <IdeaActionID>NewDirectoryProject</IdeaActionID>
           <ShortCut>'Ctrl+Shift+N'</ShortCut>
           <Description>New Project...</Description>
-          <Count>2</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="New Watch...">
@@ -390,7 +390,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
           <Description>Stop 'sport-bingo'</Description>
-          <Count>51</Count>
+          <Count>53</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'testermain (1)'">
