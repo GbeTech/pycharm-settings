@@ -21,5 +21,6 @@
   </component>
   <component name="PythonFoldingSettings">
     <option name="COLLAPSE_LONG_STRINGS" value="true" />
+    <option name="COLLAPSE_SEQUENTIAL_COMMENTS" value="true" />
   </component>
 </application>
