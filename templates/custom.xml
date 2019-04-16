@@ -152,4 +152,9 @@
       <option name="Python" value="true" />
     </context>
   </template>
+  <template name="animation" value="&#9;animation-name: $END$;&#10;    animation-duration: 0.2s;&#10;    animation-timing-function: ease-out;&#10;    animation-delay: 0s;&#10;    animation-iteration-count: 1;&#10;    animation-direction: normal;&#10;    animation-fill-mode: forwards;&#10;    animation-play-state: running;" description="css animation broken down" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
 </templateSet>

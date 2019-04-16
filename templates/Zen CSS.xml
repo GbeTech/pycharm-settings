@@ -1,0 +1,12 @@
+<templateSet group="Zen CSS">
+  <template name="anim" value="animation:$NAME$ $DURATION$ $TIMING$ $DELAY$ $COUNT$ $DIRECTION$ $FILL_MODE$;" description="animation:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="&quot;name&quot;" alwaysStopAt="true" />
+    <variable name="DURATION" expression="" defaultValue="&quot;duration&quot;" alwaysStopAt="true" />
+    <variable name="TIMING" expression="" defaultValue="&quot;timing-function&quot;" alwaysStopAt="true" />
+    <variable name="DELAY" expression="" defaultValue="&quot;delay&quot;" alwaysStopAt="true" />
+    <variable name="COUNT" expression="" defaultValue="&quot;iteration-count&quot;" alwaysStopAt="true" />
+    <variable name="DIRECTION" expression="" defaultValue="&quot;direction&quot;" alwaysStopAt="true" />
+    <variable name="FILL_MODE" expression="" defaultValue="&quot;fill-mode&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
