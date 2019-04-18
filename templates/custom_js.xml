@@ -4,13 +4,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="if" value="if ($SELECTION$){&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="cll" value="console.log({'$VAR1$'$END$:$VAR1$});" description="console.log('$selection$: ', $selection$)" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="cll" value="console.log({'$SELECTION$'$END$:$SELECTION$});" description="console.log({$selection$})" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
@@ -22,68 +16,12 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="for" value="for (let i=0; i&lt;$A$.length; i++){&#10;    $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
-    <variable name="A" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="cw" value="console.warn($SELECTION$$END$);" description="console.warn" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cww" value="console.warn('$VAR1$: ', $VAR1$);" description="console.warn('$selection$: ', $selection$)" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
   <template name="try" value="try{&#10;    $SELECTION$ &#10;} catch(e){&#10;}" description="surround with try/catch" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="on" value="on('$E$', 'click', ()=&gt;{&#10;    $DO$&#10;    });" description="add listener with click default" toReformat="false" toShortenFQNames="true">
-    <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="DO" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="forin" value="for (let key in $dict$){&#10;    $END$&#10;}" description="forin" toReformat="false" toShortenFQNames="true">
-    <variable name="dict" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="arrow" value="()=&gt;{&#10;    $END$&#10;}" description="arrow fn" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="listenajax" value="add_listener('$E$', 'click',&#10;    () =&gt; ajax('$URL$', $VAR$).then(answer =&gt; $VAR$ = answer));" description="add ajax listener with click default" toReformat="false" toShortenFQNames="true">
-    <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="onv" value="on($E$, 'click', ()=&gt;{&#10;    $DO$&#10;    });" description="add listener with click default to var" toReformat="false" toShortenFQNames="true">
-    <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="DO" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="clc" value="console.log('%c$SELECTION$', `color: ${$END$}`);" description="console.log with color" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="forof" value="for (let el of $arr$){&#10;    $END$&#10;}" description="forof" toReformat="false" toShortenFQNames="true">
-    <variable name="arr" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
