@@ -1,6 +1,14 @@
 <application>
   <component name="KeyPromoterXStatistic">
     <option name="statistics">
+      <Statistic Action="Add link to this location">
+        <Item>
+          <IdeaActionID>AppendToCurrentNote</IdeaActionID>
+          <ShortCut>'Ctrl+Shift+Q'</ShortCut>
+          <Description>Add link to this location</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Attach to Process...">
         <Item>
           <IdeaActionID>XDebugger.AttachToProcess</IdeaActionID>
