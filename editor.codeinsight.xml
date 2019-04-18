@@ -17,7 +17,7 @@
     <option name="TAB_EXITS_BRACKETS_AND_QUOTES" value="true" />
   </component>
   <component name="DaemonCodeAnalyzerSettings">
-    <option name="AUTOREPARSE_DELAY" value="150" />
+    <option name="AUTOREPARSE_DELAY" value="50" />
   </component>
   <component name="PythonFoldingSettings">
     <option name="COLLAPSE_LONG_STRINGS" value="true" />

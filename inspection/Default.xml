@@ -17,10 +17,12 @@
   <inspection_tool class="JSPotentiallyInvalidUsageOfClassThis" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSUndeclaredVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="JSUnfilteredForInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="JSUnresolvedFunction" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="JSUnresolvedVariable" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="JSUnusedAssignment" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="JSUnusedGlobalSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="JSUnusedLocalSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="NpmUsedModulesInstalled" enabled="true" level="TYPO" enabled_by_default="true" />
   <inspection_tool class="PyArgumentListInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyAttributeOutsideInitInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
