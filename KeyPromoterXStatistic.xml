@@ -241,12 +241,20 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Step Into">
+        <Item>
+          <IdeaActionID>StepInto</IdeaActionID>
+          <ShortCut>'F2'</ShortCut>
+          <Description>Step Into</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Step Into My Code">
         <Item>
           <IdeaActionID>StepIntoMyCode</IdeaActionID>
           <ShortCut>'Alt+F11'</ShortCut>
           <Description>Step Into My Code</Description>
-          <Count>1</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Step Over">
@@ -335,6 +343,14 @@
           <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
           <Description>Stop 'normalize_txt_file'</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'normalizetempotestdelete'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
+          <Description>Stop 'normalizetempotestdelete'</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'npm freeze'">
