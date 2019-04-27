@@ -1,5 +1,5 @@
 <templateSet group="Custom Postfix Templates">
-  <template name="LT" value="&quot;WHAT&quot;" description="lambda" toReformat="false" toShortenFQNames="true">
+  <template name="LT" value="&quot;WHAT&quot;" description="lambda" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="JAVA_CODE" value="true" />
       <option name="Python" value="true" />
