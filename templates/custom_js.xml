@@ -21,7 +21,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="try" value="try{&#10;    $SELECTION$ &#10;} catch(e){&#10;}" description="surround with try/catch" toReformat="true" toShortenFQNames="true">
+  <template name="try" value="try{&#10;    $SELECTION$ &#10;} catch(e){&#10;&#9;$END$&#10;}" description="surround with try/catch" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
