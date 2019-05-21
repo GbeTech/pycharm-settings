@@ -60,6 +60,13 @@
   <codeStyleSettings language="HTML">
     <option name="RIGHT_MARGIN" value="1000" />
   </codeStyleSettings>
+  <codeStyleSettings language="JSON">
+    <indentOptions>
+      <option name="INDENT_SIZE" value="4" />
+      <option name="USE_TAB_CHARACTER" value="true" />
+      <option name="SMART_TABS" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="JavaScript">
     <option name="RIGHT_MARGIN" value="140" />
     <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
