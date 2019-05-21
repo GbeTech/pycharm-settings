@@ -13,9 +13,7 @@
     <option name="myCheckGuessedTypes" value="true" />
   </inspection_tool>
   <inspection_tool class="JSEqualityComparisonWithCoercion" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="JSMethodCanBeStatic" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSPotentiallyInvalidUsageOfClassThis" enabled="false" level="WARNING" enabled_by_default="false" />
-  <inspection_tool class="JSUndeclaredVariable" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
   <inspection_tool class="JSUnfilteredForInLoop" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="JSUnresolvedFunction" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="JSUnresolvedVariable" enabled="true" level="ERROR" enabled_by_default="true" />
@@ -46,6 +44,8 @@
     <option name="ignoreLoopIterationVariables" value="false" />
     <option name="ignoreVariablesStartingWithUnderscore" value="false" />
   </inspection_tool>
+  <inspection_tool class="ReplaceAssignmentWithOperatorAssignmentJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="ReuseOfLocalVariableJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
     <option name="processCode" value="true" />
     <option name="processLiterals" value="true" />
@@ -54,7 +54,8 @@
   <inspection_tool class="StandardJS" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="SwitchStatementWithNoDefaultBranchJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TailRecursionJS" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="UnnecessaryLocalVariableJS" enabled="false" level="WARNING" enabled_by_default="false">
-    <option name="m_ignoreImmediatelyReturnedVariables" value="false" />
+  <inspection_tool class="UnnecessaryLocalVariableJS" enabled="true" level="WARNING" enabled_by_default="true">
+    <option name="m_ignoreImmediatelyReturnedVariables" value="true" />
+    <option name="m_ignoreAnnotatedVariables" value="false" />
   </inspection_tool>
 </profile>
