@@ -13,7 +13,7 @@
         <entry key="JavaScript" value="true" />
         <entry key="Jinja2" value="true" />
         <entry key="Python" value="true" />
-        <entry key="TypeScript" value="false" />
+        <entry key="TypeScript" value="true" />
         <entry key="XHTML" value="false" />
         <entry key="XML" value="false" />
         <entry key="yaml" value="false" />
