@@ -465,6 +465,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Type Info">
+        <Item>
+          <IdeaActionID>ExpressionTypeInfo</IdeaActionID>
+          <ShortCut>'Alt+T'</ShortCut>
+          <Description>Type Info</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="VCS Operations Popup...">
         <Item>
           <IdeaActionID>Vcs.QuickListPopupAction</IdeaActionID>
