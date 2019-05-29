@@ -25,10 +25,10 @@
     <mask>*.*</mask>
     <mask>*.js, *.html</mask>
     <mask>*.py</mask>
-    <mask>*.html</mask>
     <mask>*.js</mask>
     <mask>*.sass</mask>
     <mask>*.css</mask>
+    <mask>*.html</mask>
     <mask>*</mask>
   </component>
 </application>
