@@ -507,6 +507,12 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'sport-bingo'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <Description>Run 'sport-bingo'</Description>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'bin\www'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
