@@ -1,9 +1,5 @@
 <application>
   <component name="libraryTable">
-    <library name="@types/jquery" type="javaScript">
-      <CLASSES />
-      <SOURCES />
-    </library>
     <library name="firebase-app" type="javaScript">
       <properties>
         <sourceFilesUrls>
@@ -23,32 +19,6 @@
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_www.gstatic.com_firebasejs_6.0.2_firebase-database.js" />
-      </CLASSES>
-      <SOURCES />
-    </library>
-    <library name="jquery" type="javaScript">
-      <properties>
-        <option name="frameworkName" value="jQuery" />
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.3.1_jquery.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_ajax.googleapis.com_ajax_libs_jquery_3.3.1_jquery.js" />
-      </CLASSES>
-      <DOCUMENTATION>
-        <root url="http://api.jquery.com" />
-      </DOCUMENTATION>
-      <SOURCES />
-    </library>
-    <library name="jquery.mobile-1.4.5" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.jquery.com_mobile_1.4.5_jquery.mobile-1.4.5.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.jquery.com_mobile_1.4.5_jquery.mobile-1.4.5.js" />
       </CLASSES>
       <SOURCES />
     </library>
