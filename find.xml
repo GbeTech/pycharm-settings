@@ -5,7 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.sass" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -27,9 +27,9 @@
     <mask>*.py</mask>
     <mask>*.js</mask>
     <mask>*.html</mask>
-    <mask>*.ts</mask>
     <mask>*.css</mask>
-    <mask>*</mask>
     <mask>*.sass</mask>
+    <mask>*</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
