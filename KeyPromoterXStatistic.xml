@@ -57,6 +57,14 @@
           <Count>7</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'int.spec.ts'">
+        <Item>
+          <IdeaActionID>DebugClass</IdeaActionID>
+          <ShortCut>'F5'</ShortCut>
+          <Description>Debug 'int.spec.ts'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'testermain'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -326,6 +334,14 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
           <Description>Stop 'get_first_onset'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'int.spec.ts'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
+          <Description>Stop 'int.spec.ts'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
