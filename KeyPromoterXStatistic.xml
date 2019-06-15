@@ -603,6 +603,12 @@
           <Description>Run 'invalid literal'</Description>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'operands'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <Description>Run 'operands'</Description>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'sport-bingo'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
