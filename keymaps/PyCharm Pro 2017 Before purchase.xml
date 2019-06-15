@@ -274,9 +274,7 @@
   <action id="NewElement">
     <keyboard-shortcut first-keystroke="ctrl t" />
   </action>
-  <action id="NewScratchFile">
-    <keyboard-shortcut first-keystroke="shift ctrl alt n" />
-  </action>
+  <action id="NewScratchFile" />
   <action id="NextDiff" />
   <action id="NextProjectWindow" />
   <action id="NextTab">
@@ -344,6 +342,9 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt i" />
   </action>
   <action id="SaveAll" />
+  <action id="Scratch.OpenScratchList">
+    <keyboard-shortcut first-keystroke="alt c" second-keystroke="alt d" />
+  </action>
   <action id="ScrollFromSource">
     <keyboard-shortcut first-keystroke="shift ctrl alt s" />
   </action>
