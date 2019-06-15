@@ -591,6 +591,12 @@
           <Description>Run 'cannot be interpreted'</Description>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'int.spec.ts'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <Description>Run 'int.spec.ts'</Description>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'invalid literal'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
