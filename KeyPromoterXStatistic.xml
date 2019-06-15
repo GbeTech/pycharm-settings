@@ -65,6 +65,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'test_basic'">
+        <Item>
+          <IdeaActionID>DebugClass</IdeaActionID>
+          <ShortCut>'F5'</ShortCut>
+          <Description>Debug 'test_basic'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'testermain'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -473,6 +481,22 @@
           <Count>87</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'test_ValueError'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
+          <Description>Stop 'test_ValueError'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'test_basic'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
+          <Description>Stop 'test_basic'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'testermain (1)'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -518,6 +542,14 @@
           <IdeaActionID>Vcs.QuickListPopupAction</IdeaActionID>
           <ShortCut>'Alt+`'</ShortCut>
           <Description>VCS Operations Popup...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="View assertEquals Difference">
+        <Item>
+          <IdeaActionID>openAssertEqualsDiff</IdeaActionID>
+          <ShortCut>'Ctrl+D'</ShortCut>
+          <Description>View assertEquals Difference</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
