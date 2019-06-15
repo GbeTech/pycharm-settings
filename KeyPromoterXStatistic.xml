@@ -198,7 +198,7 @@
           <IdeaActionID>RenameElement</IdeaActionID>
           <ShortCut>'Ctrl+R, Ctrl+R'</ShortCut>
           <Description>Rename...</Description>
-          <Count>2</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Resume Program">
@@ -577,6 +577,18 @@
           <ShortCut>'Ctrl+V' or 'Shift+Insert'</ShortCut>
           <Description>Paste</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'argument must be'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <Description>Run 'argument must be'</Description>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'cannot be interpreted'">
+        <Item>
+          <IdeaActionID>RunClass</IdeaActionID>
+          <Description>Run 'cannot be interpreted'</Description>
         </Item>
       </Statistic>
       <Statistic Action="Run 'invalid literal'">
