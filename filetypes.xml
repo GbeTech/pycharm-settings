@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping pattern=".compilerc" type="PLAIN_TEXT" />
       <mapping ext="ini" type="PLAIN_TEXT" />
+      <mapping ext="" type="Python" />
       <mapping ext="fnc" type="DBN-PSQL" />
       <mapping ext="pkb" type="DBN-PSQL" />
       <mapping ext="pkg" type="DBN-PSQL" />
