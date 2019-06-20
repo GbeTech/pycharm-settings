@@ -2,10 +2,12 @@
   <component name="FindSettings">
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
+    <option name="regularExpressions" value="true" />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
+    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="!*.css" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -27,10 +29,10 @@
     <mask>*.js</mask>
     <mask>*.css</mask>
     <mask>*.sass</mask>
-    <mask>*.ts</mask>
     <mask>*.py</mask>
     <mask>*.html</mask>
     <mask>*</mask>
     <mask>!*.css</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
