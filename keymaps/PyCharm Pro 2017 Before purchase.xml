@@ -243,6 +243,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt left" />
   </action>
   <action id="Move" />
+  <action id="MoveEditorToOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="ctrl alt m" />
+  </action>
   <action id="MoveElementLeft" />
   <action id="MoveElementRight" />
   <action id="MoveLineDown">
@@ -279,6 +282,9 @@
   <action id="NextProjectWindow" />
   <action id="NextTab">
     <keyboard-shortcut first-keystroke="ctrl tab" />
+  </action>
+  <action id="OpenEditorInOppositeTabGroup">
+    <keyboard-shortcut first-keystroke="ctrl alt o" />
   </action>
   <action id="OpenElementInNewWindow" />
   <action id="OpenInBrowserGroup">
