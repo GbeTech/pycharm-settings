@@ -47,11 +47,11 @@
   <component name="TodoConfiguration">
     <pattern pattern="\btodo\b.*" />
     <pattern pattern="\bfixme\b.*" />
-    <pattern useCustomColors="true" pattern="[ ]{1}GOOD.*$">
+    <pattern useCustomColors="true" case-sensitive="true" pattern="[ ]{1}GOOD.*$">
       <option name="FOREGROUND" value="1c124" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern useCustomColors="true" pattern="[ ]{1}BAD.*$">
+    <pattern useCustomColors="true" case-sensitive="true" pattern="[ ]{1}BAD.*$">
       <option name="FOREGROUND" value="c1170c" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
