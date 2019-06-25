@@ -558,7 +558,7 @@
           <IdeaActionID>ExpressionTypeInfo</IdeaActionID>
           <ShortCut>'Alt+T'</ShortCut>
           <Description>Type Info</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="VCS Operations Popup...">
