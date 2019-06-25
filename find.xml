@@ -7,7 +7,7 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.ts" />
+    <option name="FILE_MASK" value="*.html" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -30,9 +30,9 @@
     <mask>*.css</mask>
     <mask>*.sass</mask>
     <mask>*.py</mask>
-    <mask>*.html</mask>
-    <mask>*</mask>
     <mask>!*.css</mask>
     <mask>*.ts</mask>
+    <mask>*</mask>
+    <mask>*.html</mask>
   </component>
 </application>
