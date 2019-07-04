@@ -126,7 +126,7 @@
           <IdeaActionID>editRunConfigurations</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F5'</ShortCut>
           <Description>Edit Configurations...</Description>
-          <Count>9</Count>
+          <Count>10</Count>
         </Item>
       </Statistic>
       <Statistic Action="Exclude">
