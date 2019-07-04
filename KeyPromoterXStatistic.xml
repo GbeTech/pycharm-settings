@@ -241,6 +241,14 @@
           <Count>24</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'CPython Tests.test_basic'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'F1'</ShortCut>
+          <Description>Run 'CPython Tests.test_basic'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'Unnamed'">
         <Item>
           <IdeaActionID>Run</IdeaActionID>
