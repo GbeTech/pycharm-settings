@@ -126,7 +126,7 @@
           <IdeaActionID>editRunConfigurations</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F5'</ShortCut>
           <Description>Edit Configurations...</Description>
-          <Count>8</Count>
+          <Count>9</Count>
         </Item>
       </Statistic>
       <Statistic Action="Exclude">
@@ -233,6 +233,14 @@
           <Count>24</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Run 'Unnamed'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'F1'</ShortCut>
+          <Description>Run 'Unnamed'</Description>
+          <Count>4</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Run 'index.html'">
         <Item>
           <IdeaActionID>RunClass</IdeaActionID>
@@ -262,7 +270,7 @@
           <IdeaActionID>ChooseRunConfiguration</IdeaActionID>
           <ShortCut>'Alt+Shift+F10'</ShortCut>
           <Description>Run...</Description>
-          <Count>11</Count>
+          <Count>18</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Execution Point">
