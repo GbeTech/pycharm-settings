@@ -65,6 +65,14 @@
           <Count>8</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'int.spec.ts bail=10'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Debug 'int.spec.ts bail=10'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'native Boolean'">
         <Item>
           <IdeaActionID>DebugClass</IdeaActionID>
@@ -126,7 +134,7 @@
           <IdeaActionID>editRunConfigurations</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F5'</ShortCut>
           <Description>Edit Configurations...</Description>
-          <Count>12</Count>
+          <Count>14</Count>
         </Item>
       </Statistic>
       <Statistic Action="Exclude">
@@ -246,6 +254,14 @@
           <IdeaActionID>RunClass</IdeaActionID>
           <ShortCut>'F1'</ShortCut>
           <Description>Run 'index.html'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'int.spec.ts bail=10'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'F1'</ShortCut>
+          <Description>Run 'int.spec.ts bail=10'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
@@ -398,7 +414,7 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
           <Description>Stop 'int.spec.ts'</Description>
-          <Count>1</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'main'">
