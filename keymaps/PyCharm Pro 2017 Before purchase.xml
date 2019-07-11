@@ -2,9 +2,6 @@
   <action id="AceAction" />
   <action id="AceLineAction" />
   <action id="AceTargetAction" />
-  <action id="AceWordAction">
-    <keyboard-shortcut first-keystroke="alt m" />
-  </action>
   <action id="ActivateCopy/PasteToolWindow">
     <keyboard-shortcut first-keystroke="shift ctrl alt c" />
   </action>
@@ -545,11 +542,12 @@
   <action id="editRunConfigurations">
     <keyboard-shortcut first-keystroke="shift ctrl alt f5" />
   </action>
-  <action id="emacsIDEAs.AceJump" />
   <action id="emacsIDEAs.AceJumpSelect">
     <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
-  <action id="emacsIDEAs.JustOneSpace" />
+  <action id="emacsIDEAs.JustOneSpace">
+    <keyboard-shortcut first-keystroke="shift ctrl alt m" />
+  </action>
   <action id="tasks.close" />
   <action id="tasks.goto" />
   <action id="tasks.open.in.browser" />
