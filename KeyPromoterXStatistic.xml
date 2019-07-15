@@ -166,7 +166,7 @@
           <IdeaActionID>editRunConfigurations</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F5'</ShortCut>
           <Description>Edit Configurations...</Description>
-          <Count>21</Count>
+          <Count>22</Count>
         </Item>
       </Statistic>
       <Statistic Action="Exclude">
@@ -310,7 +310,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'F1'</ShortCut>
           <Description>Run 'int.spec.ts watch bail=100'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'testermain'">
@@ -502,6 +502,14 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
           <Description>Stop 'index.spec.ts'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'int.spec.ts bail=10'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
+          <Description>Stop 'int.spec.ts bail=10'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
