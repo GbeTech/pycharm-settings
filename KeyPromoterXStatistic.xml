@@ -97,6 +97,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'test_ValueError.invalid literal'">
+        <Item>
+          <IdeaActionID>Debug</IdeaActionID>
+          <ShortCut>'Ctrl+F5'</ShortCut>
+          <Description>Debug 'test_ValueError.invalid literal'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'test_basic'">
         <Item>
           <IdeaActionID>DebugClass</IdeaActionID>
@@ -118,7 +126,7 @@
           <IdeaActionID>ChooseDebugConfiguration</IdeaActionID>
           <ShortCut>'Alt+Shift+F9'</ShortCut>
           <Description>Debug...</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Delete...">
@@ -134,7 +142,7 @@
           <IdeaActionID>editRunConfigurations</IdeaActionID>
           <ShortCut>'Ctrl+Alt+Shift+F5'</ShortCut>
           <Description>Edit Configurations...</Description>
-          <Count>19</Count>
+          <Count>21</Count>
         </Item>
       </Statistic>
       <Statistic Action="Exclude">
@@ -270,6 +278,14 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'F1'</ShortCut>
           <Description>Run 'int.spec.ts bail=10'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Run 'int.spec.ts watch bail=100'">
+        <Item>
+          <IdeaActionID>Run</IdeaActionID>
+          <ShortCut>'F1'</ShortCut>
+          <Description>Run 'int.spec.ts watch bail=100'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
