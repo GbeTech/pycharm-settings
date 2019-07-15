@@ -369,6 +369,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'CPython Tests.longobject.c.PyLong_FromString'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
+          <Description>Stop 'CPython Tests.longobject.c.PyLong_FromString'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'Main'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
