@@ -182,7 +182,7 @@
           <IdeaActionID>DebugClass</IdeaActionID>
           <ShortCut>'F5'</ShortCut>
           <Description>Debug 'test_underscore'</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'testermain'">
@@ -486,6 +486,14 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
           <Description>Stop 'CPython Tests.longobject.c.PyLong_FromString'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop 'CPython Tests.test_underscore'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'Shift+F5' or 'Shift+F1'</ShortCut>
+          <Description>Stop 'CPython Tests.test_underscore'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
