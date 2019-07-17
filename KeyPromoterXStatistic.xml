@@ -193,14 +193,6 @@
           <Count>3</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Edit Configurations...">
-        <Item>
-          <IdeaActionID>editRunConfigurations</IdeaActionID>
-          <ShortCut>'Ctrl+Alt+Shift+F5'</ShortCut>
-          <Description>Edit Configurations...</Description>
-          <Count>28</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Exclude">
         <Item>
           <IdeaActionID>UsageView.Exclude</IdeaActionID>
@@ -358,7 +350,7 @@
           <IdeaActionID>Run</IdeaActionID>
           <ShortCut>'F1'</ShortCut>
           <Description>Run 'int.spec.ts watch bail=1000'</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Run 'testermain'">
@@ -825,6 +817,14 @@
           <ShortCut>'F12' or 'Shift+F2' or 'Ctrl+Button1 Click'</ShortCut>
           <Description>Declaration</Description>
           <Count>2</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Edit Configurations...">
+        <Item>
+          <IdeaActionID>editRunConfigurations</IdeaActionID>
+          <ShortCut>'Ctrl+Alt+Shift+F5'</ShortCut>
+          <Description>Edit Configurations...</Description>
+          <Count>29</Count>
         </Item>
       </Statistic>
       <Statistic Action="Paste">
