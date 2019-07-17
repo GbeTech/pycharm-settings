@@ -41,6 +41,14 @@
           <Count>8</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug '(&quot;+ 314&quot;)'">
+        <Item>
+          <IdeaActionID>DebugClass</IdeaActionID>
+          <ShortCut>'F5'</ShortCut>
+          <Description>Debug '(&quot;+ 314&quot;)'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'BigInteger.js'">
         <Item>
           <IdeaActionID>DebugClass</IdeaActionID>
