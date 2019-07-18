@@ -151,6 +151,9 @@
     <mouse-shortcut keystroke="button2" />
     <keyboard-shortcut first-keystroke="alt t" />
   </action>
+  <action id="ExternalJavaDoc">
+    <keyboard-shortcut first-keystroke="shift f1" />
+  </action>
   <action id="ExtractMethod" />
   <action id="FileChooser.NewFolder">
     <keyboard-shortcut first-keystroke="alt insert" />
@@ -326,6 +329,9 @@
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="shift ctrl t" />
+  </action>
+  <action id="Rerun">
+    <keyboard-shortcut first-keystroke="ctrl f1" />
   </action>
   <action id="RerunTests" />
   <action id="ResizeToolWindowDown" />
