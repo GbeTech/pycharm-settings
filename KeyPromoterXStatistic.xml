@@ -121,6 +121,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'int('0x', 16) ValueError'">
+        <Item>
+          <IdeaActionID>DebugClass</IdeaActionID>
+          <ShortCut>'F5'</ShortCut>
+          <Description>Debug 'int('0x', 16) ValueError'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'int.spec.ts bail=10'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
