@@ -97,6 +97,14 @@
           <Count>8</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Debug 'int(&quot;+ 314&quot;) ValueError'">
+        <Item>
+          <IdeaActionID>DebugClass</IdeaActionID>
+          <ShortCut>'F5'</ShortCut>
+          <Description>Debug 'int(&quot;+ 314&quot;) ValueError'</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'int('0b11')'">
         <Item>
           <IdeaActionID>DebugClass</IdeaActionID>
