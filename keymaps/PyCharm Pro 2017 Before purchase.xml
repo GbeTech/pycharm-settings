@@ -81,7 +81,9 @@
   <action id="Diff.FocusOppositePaneAndScroll" />
   <action id="DirDiffMenu.SynchronizeDiff.All" />
   <action id="DumpLookupElementWeights" />
-  <action id="EditSource" />
+  <action id="EditSource">
+    <keyboard-shortcut first-keystroke="shift f12" />
+  </action>
   <action id="EditSourceInNewWindow" />
   <action id="EditorAddRectangularSelectionOnMouseDrag" />
   <action id="EditorChooseLookupItemDot" />
@@ -164,6 +166,9 @@
   </action>
   <action id="FindNext" />
   <action id="FindPrevious" />
+  <action id="FindUsagesInFile">
+    <keyboard-shortcut first-keystroke="shift ctrl f7" />
+  </action>
   <action id="FindWordAtCaret" />
   <action id="ForceRunToCursor">
     <keyboard-shortcut first-keystroke="f8" />
@@ -336,6 +341,7 @@
   <action id="RerunTests" />
   <action id="ResizeToolWindowDown" />
   <action id="ResizeToolWindowUp" />
+  <action id="RestoreDefaultLayout" />
   <action id="Resume">
     <keyboard-shortcut first-keystroke="f6" />
   </action>
@@ -505,7 +511,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt f2" />
   </action>
   <action id="XDebugger.EditWatch" />
-  <action id="XDebugger.JumpToSource" />
+  <action id="XDebugger.JumpToSource">
+    <keyboard-shortcut first-keystroke="shift f12" />
+  </action>
   <action id="XDebugger.JumpToTypeSource" />
   <action id="XDebugger.MoveWatchDown" />
   <action id="XDebugger.MuteBreakpoints">
