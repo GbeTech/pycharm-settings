@@ -321,6 +321,14 @@
           <Count>10</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Rerun 'CPython Tests.test_underscore.Valid underscore literals'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'Ctrl+F1'</ShortCut>
+          <Description>Rerun 'CPython Tests.test_underscore.Valid underscore literals'</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'int.spec.ts bail=10'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
