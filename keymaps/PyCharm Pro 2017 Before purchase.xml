@@ -33,6 +33,9 @@
   </action>
   <action id="ChangesView.Move" />
   <action id="CheckinProject" />
+  <action id="ChooseRunConfiguration">
+    <keyboard-shortcut first-keystroke="shift ctrl alt f1" />
+  </action>
   <action id="CloseActiveTab" />
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="shift ctrl w" />
