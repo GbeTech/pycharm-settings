@@ -13,13 +13,14 @@
         <entry key="JavaScript" value="true" />
         <entry key="Jinja2" value="true" />
         <entry key="Python" value="true" />
-        <entry key="TypeScript" value="false" />
+        <entry key="TypeScript" value="true" />
         <entry key="XHTML" value="false" />
         <entry key="XML" value="false" />
         <entry key="yaml" value="false" />
       </map>
     </option>
     <option name="USE_SOFT_WRAPS" value="CONSOLE" />
+    <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
     <option name="USE_CUSTOM_SOFT_WRAP_INDENT" value="true" />
     <option name="CUSTOM_SOFT_WRAP_INDENT" value="2" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
@@ -54,30 +55,24 @@
       <option name="FOREGROUND" value="c1170c" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern useCustomColors="true" case-sensitive="true" pattern="[ ]{1}\[[A-Z\$].*$">
+    <pattern useCustomColors="true" pattern="(?&lt;![\w\d;\.,!?:-@#$%^&amp;()+])(?&lt;=\*  )[\w\d;\.,\(\)\s|\&lt;\&gt;']*$">
       <option name="FOREGROUND" value="498aca" />
+      <option name="BACKGROUND" value="222222" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
-    <pattern icon="question" useCustomColors="true" pattern="\[[*]{2}[a-zA-Z0-9\$\.\-\/\&gt;\(\)\, ]*\]">
+    <pattern useCustomColors="true" pattern="(?&lt;![\w\d;\.,!?:-@#$%^&amp;()+])(?&lt;=\*{2}  )[\w\d;\.,\(\)\s|\&lt;\&gt;']*$">
+      <option name="FOREGROUND" value="498aca" />
+      <option name="BACKGROUND" value="111111" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="EFFECT_COLOR" value="498aca" />
+      <option name="EFFECT_TYPE" value="1" />
+    </pattern>
+    <pattern useCustomColors="true" pattern="(?&lt;![\w\d;\.,!?:-@#$%^&amp;()+])(?&lt;=\*{3}  )[\w\d;\.,\(\)\s|\&lt;\&gt;']*$">
       <option name="FOREGROUND" value="56a6f2" />
+      <option name="BACKGROUND" value="0" />
       <option name="FONT_TYPE" value="3" />
       <option name="EFFECT_COLOR" value="56a6f2" />
-      <option name="EFFECT_TYPE" value="1" />
-    </pattern>
-    <pattern useCustomColors="true" pattern="(?&lt;=\*)[^\*#@\n]*">
-      <option name="FOREGROUND" value="498aca" />
-      <option name="FONT_TYPE" value="2" />
-    </pattern>
-    <pattern useCustomColors="true" pattern="(?&lt;=\*\*)[^\*#\n]*">
-      <option name="FOREGROUND" value="498aca" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="EFFECT_TYPE" value="1" />
-    </pattern>
-    <pattern icon="important" useCustomColors="true" pattern="(?&lt;=\*\*\*)[^\*#\n]*">
-      <option name="FOREGROUND" value="56a6f2" />
-      <option name="FONT_TYPE" value="3" />
-      <option name="EFFECT_COLOR" value="56a6f2" />
-      <option name="EFFECT_TYPE" value="1" />
+      <option name="EFFECT_TYPE" value="4" />
     </pattern>
   </component>
   <component name="XmlEditorOptions">

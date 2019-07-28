@@ -1,9 +1,0 @@
-<templateSet group="tests">
-  <template name="test" value="def test_$NUM$():&#10;    expected = f&quot;&quot;&quot;$END$&#10;    &quot;&quot;&quot;&#10;    assert magic_me(f&quot;$WHAT$&quot;) == expected" description="autosyntax test template" toReformat="false" toShortenFQNames="true">
-    <variable name="NUM" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="WHAT" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
-</templateSet>

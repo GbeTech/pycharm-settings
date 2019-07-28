@@ -20,15 +20,9 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="try" value="try:&#10;    $EX$&#10;except $E1$:&#10;    $END$&#10;    " description="try except" toReformat="false" toShortenFQNames="true">
+  <template name="try" value="try:&#10;    $EX$&#10;except $E1$:&#10;    $END$&#10;    " description="try except" toReformat="true" toShortenFQNames="true">
     <variable name="EX" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="E1" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
-  <template name="while" value="while $COND1$:&#10;    $END$" description="while" toReformat="false" toShortenFQNames="true">
-    <variable name="COND1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
@@ -50,27 +44,10 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="type" value="type($END$)" description="type" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
   <template name="fore" value="for $I$,$V$ in enumerate($O$):&#10;    $END$" description="for i,v in enumerate" toReformat="false" toShortenFQNames="true">
     <variable name="I" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="V" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="O" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
-  <template name="ifn0" value="if $VAR$ != 0:&#10;    $END$" description="if VAR != 0" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
-  <template name="if0" value="if $VAR$ == 0:&#10;    $END$" description="if VAR == 0" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
@@ -89,31 +66,6 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="from" value="from $var1$ import $var2$" description="from $ import $" toReformat="false" toShortenFQNames="true">
-    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
-  <template name="join" value="''.join(['$VAR1$',&#10;        '$VAR2$'])" description="''.join([''])" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
-  <template name="pf" value="print(f'$END$')" description="print(f'')" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
-  <template name="pf1" value="print(f'{$VAR1$}$END$')" description="print(f'{}')" toReformat="false" toShortenFQNames="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
   <template name="fora" value="for arg in args:&#10;    $END$" description="for arg in args:" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="Python" value="true" />
@@ -126,30 +78,15 @@
       <option name="Python_Class" value="true" />
     </context>
   </template>
-  <template name="impas" value="import $var1$ as $var2$" description="import $ as $" toReformat="false" toShortenFQNames="true">
-    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="var2" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
-  <template name="prr" value="print(f'$var1$: ', $var1$)" description="print(f'var: ', var)" toReformat="false" toShortenFQNames="true">
+  <template name="printf" value="print(f'$var1$: ', $var1$)" description="print(f'var: ', var)" toReformat="false" toShortenFQNames="true">
     <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="logg" value="util.log({'$VAR1$':$VAR1$})" description="log(txt: {}.format..." toReformat="false" toShortenFQNames="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="animation" value="&#9;animation-name: $END$;&#10;    animation-duration: 0.2s;&#10;    animation-timing-function: ease-out;&#10;    animation-delay: 0s;&#10;    animation-iteration-count: 1;&#10;    animation-direction: normal;&#10;    animation-fill-mode: forwards;&#10;    animation-play-state: running;" description="css animation broken down" toReformat="true" toShortenFQNames="true">
     <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
-  <template name="logg2" value="util.log({'$VAR1$':$VAR1$,&#10;    '$VAR2$':$VAR2$,})" description="log(txt: {}.format..." toReformat="false" toShortenFQNames="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
-    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
+      <option name="CSS" value="true" />
     </context>
   </template>
 </templateSet>

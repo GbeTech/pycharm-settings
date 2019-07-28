@@ -1,5 +1,5 @@
 <application>
   <component name="IntentionManagerSettings">
-    <ignoreAction name="Other/Flip ','" />
+    <ignoreAction name="HTML/Update background-image size" />
   </component>
 </application>

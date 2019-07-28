@@ -11,11 +11,11 @@
       <debugger id="javascript">
         <configuration>
           <custom-object-presentation />
+          <stepping-filters-enabled>false</stepping-filters-enabled>
         </configuration>
       </debugger>
       <debugger id="python">
         <configuration>
-          <option name="librariesFilterEnabled" value="true" />
           <option name="simplifiedView" value="false" />
           <option name="watchReturnValues" value="true" />
         </configuration>
