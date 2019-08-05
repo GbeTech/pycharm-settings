@@ -6,11 +6,17 @@
   <inspection_tool class="CssRedundantUnit" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="DefaultNotLastCaseInSwitchJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="DuplicateConditionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="DuplicatedCode" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <Languages>
+      <language minSize="141" name="TypeScript" />
+    </Languages>
+  </inspection_tool>
   <inspection_tool class="HtmlRequiredAltAttribute" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="HtmlRequiredLangAttribute" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="IfStatementWithIdenticalBranchesJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="JSAnnotator" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JSArrowFunctionBracesCanBeRemoved" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="JSCheckFunctionSignatures" enabled="true" level="ERROR" enabled_by_default="true">
+  <inspection_tool class="JSCheckFunctionSignatures" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="myCheckGuessedTypes" value="true" />
   </inspection_tool>
   <inspection_tool class="JSEqualityComparisonWithCoercion" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -52,9 +58,10 @@
     <option name="processLiterals" value="true" />
     <option name="processComments" value="true" />
   </inspection_tool>
-  <inspection_tool class="StandardJS" enabled="true" level="ERROR" enabled_by_default="true" />
+  <inspection_tool class="StandardJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="SwitchStatementWithNoDefaultBranchJS" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="TailRecursionJS" enabled="true" level="WARNING" enabled_by_default="true" />
+  <inspection_tool class="TypeScriptValidateTypes" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="UnnecessaryLocalVariableJS" enabled="true" level="WARNING" enabled_by_default="true">
     <option name="m_ignoreImmediatelyReturnedVariables" value="true" />
     <option name="m_ignoreAnnotatedVariables" value="false" />
