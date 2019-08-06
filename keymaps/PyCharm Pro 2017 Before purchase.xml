@@ -198,6 +198,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl f7" />
   </action>
   <action id="FindWordAtCaret" />
+  <action id="ForceRefresh" />
   <action id="ForceRunToCursor">
     <keyboard-shortcut first-keystroke="f8" />
   </action>
@@ -576,6 +577,9 @@
     <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="emacsIDEAs.JustOneSpace" />
+  <action id="intellij.frontendalignement.AlignItAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" />
+  </action>
   <action id="tasks.close" />
   <action id="tasks.goto" />
   <action id="tasks.open.in.browser" />
