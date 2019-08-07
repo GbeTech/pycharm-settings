@@ -14,9 +14,8 @@
   <inspection_tool class="HtmlRequiredAltAttribute" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="HtmlRequiredLangAttribute" enabled="false" level="WARNING" enabled_by_default="false" />
   <inspection_tool class="IfStatementWithIdenticalBranchesJS" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="JSAnnotator" enabled="true" level="WARNING" enabled_by_default="true" />
   <inspection_tool class="JSArrowFunctionBracesCanBeRemoved" enabled="true" level="WARNING" enabled_by_default="true" />
-  <inspection_tool class="JSCheckFunctionSignatures" enabled="true" level="WARNING" enabled_by_default="true">
+  <inspection_tool class="JSCheckFunctionSignatures" enabled="true" level="ERROR" enabled_by_default="true">
     <option name="myCheckGuessedTypes" value="true" />
   </inspection_tool>
   <inspection_tool class="JSEqualityComparisonWithCoercion" enabled="false" level="WARNING" enabled_by_default="false" />
@@ -28,6 +27,7 @@
   <inspection_tool class="JSUnusedAssignment" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
   <inspection_tool class="JSUnusedGlobalSymbols" enabled="true" level="TYPO" enabled_by_default="true" />
   <inspection_tool class="JSUnusedLocalSymbols" enabled="true" level="WEAK WARNING" enabled_by_default="true" />
+  <inspection_tool class="JSValidateTypes" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="NpmUsedModulesInstalled" enabled="true" level="TYPO" enabled_by_default="true" />
   <inspection_tool class="PyArgumentListInspection" enabled="true" level="ERROR" enabled_by_default="true" />
   <inspection_tool class="PyAttributeOutsideInitInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
