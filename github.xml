@@ -1,9 +1,4 @@
 <application>
-  <component name="GithubAccounts">
-    <account id="b2957a21-c9ee-42c9-99b1-2238ee2c0ce8" name="giladbarnea">
-      <server host="github.com" />
-    </account>
-  </component>
   <component name="GithubSettings">
     <option name="LOGIN" value="GbeTech" />
     <option name="AUTH_TYPE" value="BASIC" />
