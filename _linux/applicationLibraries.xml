@@ -1,5 +1,9 @@
 <application>
   <component name="libraryTable">
+    <library name="@types/gsap" type="javaScript">
+      <CLASSES />
+      <SOURCES />
+    </library>
     <library name="CSSPlugin" type="javaScript">
       <properties>
         <sourceFilesUrls>
