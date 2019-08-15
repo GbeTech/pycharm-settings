@@ -512,6 +512,9 @@
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Uml.ShowDiff" />
+  <action id="Vcs.Log.EnableFilterByRegexAction">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
   <action id="Vcs.Log.GoToRef">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
