@@ -4,15 +4,8 @@
       <CLASSES />
       <SOURCES />
     </library>
-    <library name="color-thief.umd" type="javaScript">
-      <properties>
-        <sourceFilesUrls>
-          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_color-thief_2.3.0_color-thief.umd.js" />
-        </sourceFilesUrls>
-      </properties>
-      <CLASSES>
-        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_color-thief_2.3.0_color-thief.umd.js" />
-      </CLASSES>
+    <library name="@types/masonry-layout" type="javaScript">
+      <CLASSES />
       <SOURCES />
     </library>
     <library name="CSSPlugin" type="javaScript">
@@ -23,6 +16,17 @@
       </properties>
       <CLASSES>
         <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_cdnjs.cloudflare.com_ajax_libs_gsap_2.1.3_plugins_CSSPlugin.min.js" />
+      </CLASSES>
+      <SOURCES />
+    </library>
+    <library name="masonry.pkgd" type="javaScript">
+      <properties>
+        <sourceFilesUrls>
+          <item url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_masonry-layout@4_dist_masonry.pkgd.js" />
+        </sourceFilesUrls>
+      </properties>
+      <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_unpkg.com_masonry-layout@4_dist_masonry.pkgd.js" />
       </CLASSES>
       <SOURCES />
     </library>
