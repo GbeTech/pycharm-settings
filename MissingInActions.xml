@@ -1,0 +1,10 @@
+<application>
+  <component name="MissingInActions">
+    <option name="batchSearchReplace">
+      <BatchSearchReplace>
+        <option name="replaceText" value="SHLOOP" />
+        <option name="searchText" value="ROWSIZE" />
+      </BatchSearchReplace>
+    </option>
+  </component>
+</application>
