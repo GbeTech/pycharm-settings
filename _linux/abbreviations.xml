@@ -1,0 +1,9 @@
+<application>
+  <component name="AbbreviationManager">
+    <abbreviations>
+      <action id="ExtractMethod">
+        <abbreviation name="exm" />
+      </action>
+    </abbreviations>
+  </component>
+</application>
