@@ -23,6 +23,7 @@
     <option name="SOFT_WRAP_FILE_MASKS" value="*.md; *.txt; *.rst; *.adoc" />
     <option name="USE_CUSTOM_SOFT_WRAP_INDENT" value="true" />
     <option name="CUSTOM_SOFT_WRAP_INDENT" value="2" />
+    <option name="IS_VIRTUAL_SPACE" value="true" />
     <option name="STRIP_TRAILING_SPACES" value="Whole" />
     <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
     <option name="SHOW_QUICK_DOC_ON_MOUSE_OVER_ELEMENT" value="true" />
@@ -81,6 +82,10 @@
     </pattern>
     <pattern useCustomColors="true" pattern="\s{1}pass\b$">
       <option name="FOREGROUND" value="547854" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern useCustomColors="true" pattern="(?&lt;=! )[^\n]*$">
+      <option name="FOREGROUND" value="9b9b9b" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
   </component>
