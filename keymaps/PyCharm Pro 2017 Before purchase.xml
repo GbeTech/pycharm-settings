@@ -82,6 +82,7 @@
   <action id="Console.TableResult.MaximizeEditingCell" />
   <action id="Console.TableResult.NextPage" />
   <action id="Console.TableResult.PreviousPage" />
+  <action id="Console.TableResult.Reload" />
   <action id="Console.TableResult.SelectRow" />
   <action id="Console.TableResult.SetDefault" />
   <action id="Console.TableResult.SetNull" />
@@ -94,6 +95,7 @@
   <action id="DatabaseView.CopyDdlAction" />
   <action id="DatabaseView.OpenDdlInConsole" />
   <action id="DatabaseView.PropertiesAction" />
+  <action id="DatabaseView.Refresh" />
   <action id="DatabaseView.SqlGenerator" />
   <action id="Debug">
     <keyboard-shortcut first-keystroke="ctrl f5" />
@@ -154,7 +156,9 @@
   <action id="EditorPasteFromX11" />
   <action id="EditorPasteSimple" />
   <action id="EditorScrollDown" />
-  <action id="EditorScrollToCenter" />
+  <action id="EditorScrollToCenter">
+    <keyboard-shortcut first-keystroke="shift ctrl s" />
+  </action>
   <action id="EditorScrollUp" />
   <action id="EditorSplitLine" />
   <action id="EditorStartNewLine">
@@ -374,6 +378,7 @@
   <action id="RecentChanges" />
   <action id="RecentFiles" />
   <action id="ReformatCode" />
+  <action id="Refresh" />
   <action id="RenameElement">
     <keyboard-shortcut first-keystroke="ctrl r" second-keystroke="ctrl r" />
   </action>
@@ -526,15 +531,13 @@
   <action id="TypeHierarchy" />
   <action id="TypeHierarchyBase.BaseOnThisType" />
   <action id="Uml.ShowDiff" />
-  <action id="Vcs.Log.EnableFilterByRegexAction">
-    <keyboard-shortcut first-keystroke="ctrl alt r" />
-  </action>
   <action id="Vcs.Log.GoToRef">
     <keyboard-shortcut first-keystroke="ctrl f" />
   </action>
   <action id="Vcs.Log.MatchCaseAction">
     <keyboard-shortcut first-keystroke="alt c" />
   </action>
+  <action id="Vcs.Log.Refresh" />
   <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.Push" />
   <action id="Vcs.QuickListPopupAction" />
@@ -575,6 +578,9 @@
   <action id="armory.node.AttrItalic" />
   <action id="armory.node.AttrUnderline" />
   <action id="armory.ungroupSelectedElements" />
+  <action id="com.gitlab.lae.intellij.actions.CreateRectangularSelectionFromMultiLineSelection">
+    <keyboard-shortcut first-keystroke="ctrl alt r" />
+  </action>
   <action id="com.jetbrains.python.console.RunPythonConsoleAction">
     <keyboard-shortcut first-keystroke="alt f8" />
   </action>
@@ -599,6 +605,7 @@
     <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="emacsIDEAs.JustOneSpace" />
+  <action id="hg4idea.QRefresh" />
   <action id="intellij.frontendalignement.AlignItAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />
   </action>
