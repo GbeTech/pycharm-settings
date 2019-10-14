@@ -92,6 +92,10 @@
       <option name="FOREGROUND" value="9b9b9b" />
       <option name="FONT_TYPE" value="3" />
     </pattern>
+    <pattern useCustomColors="true" pattern="\s{1}error\b$">
+      <option name="FOREGROUND" value="943e3e" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
   </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
