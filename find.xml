@@ -1,13 +1,13 @@
 <application>
   <component name="FindSettings">
     <option name="caseSensitive" value="true" />
-    <option name="customScope" value="All Changed Files" />
-    <option name="defaultScopeName" value="All Changed Files" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="SEARCH_SCOPE" value="All Changed Files" />
-    <option name="FILE_MASK" value="!*.css, !*.js" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*" />
     <mask>*.properties</mask>
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
@@ -34,8 +34,8 @@
     <mask>*.ts, !*.d.*</mask>
     <mask>*.ts</mask>
     <mask>!*.css</mask>
-    <mask>*</mask>
     <mask>*.js</mask>
     <mask>!*.css, !*.js</mask>
+    <mask>*</mask>
   </component>
 </application>
