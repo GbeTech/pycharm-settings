@@ -1,6 +1,9 @@
 <application>
   <component name="AbbreviationManager">
     <abbreviations>
+      <action id="com.gitlab.lae.intellij.actions.CreateRectangularSelectionFromMultiLineSelection">
+        <abbreviation name="rec" />
+      </action>
       <action id="ExtractMethod">
         <abbreviation name="exm" />
       </action>
