@@ -345,9 +345,6 @@
     <keyboard-shortcut first-keystroke="ctrl alt o" />
   </action>
   <action id="OpenElementInNewWindow" />
-  <action id="OpenInBrowserGroup">
-    <keyboard-shortcut first-keystroke="alt o" />
-  </action>
   <action id="OptimizeImports" />
   <action id="Pause">
     <keyboard-shortcut first-keystroke="ctrl pause" />
