@@ -59,7 +59,7 @@
     <option name="START_STRING_INTERPOLATION_ON_TYPING" value="true" />
     <option name="ESCAPE_PASTED_TEXT" value="false" />
   </component>
-  <component name="LiveEditOptions" chromeAutoDelay="100" chromeUpdateJSOnChanges="true" updateFilesToCompile="true" useJBChromeExtension="true" />
+  <component name="LiveEditOptions" chromeAutoDelay="100" chromeUpdateJSOnChanges="true" useJBChromeExtension="true" />
   <component name="PythonFoldingSettings">
     <option name="COLLAPSE_LONG_STRINGS" value="true" />
     <option name="COLLAPSE_SEQUENTIAL_COMMENTS" value="true" />
