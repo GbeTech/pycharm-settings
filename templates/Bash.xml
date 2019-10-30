@@ -1,0 +1,25 @@
+<templateSet group="Bash">
+  <template name="n" value="${NORMAL}" description="${NORMAL}" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="Bash" value="true" />
+    </context>
+  </template>
+  <template name="dg" value="${DIMGREY}$VAR$${NORMAL}" description="${DIMGREY} foo ${NORMAL}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Bash" value="true" />
+    </context>
+  </template>
+  <template name="h2" value="${H2}$VAR$${NORMAL}" description="${H2} foo ${NORMAL}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Bash" value="true" />
+    </context>
+  </template>
+  <template name="w" value="${WHITE}$VAR$${NORMAL}" description="${WHITE}foo${NORMAL}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Bash" value="true" />
+    </context>
+  </template>
+</templateSet>
