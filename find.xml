@@ -7,7 +7,7 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*" />
+    <option name="FILE_MASK" value="!*.css" />
     <mask>*.jsp</mask>
     <mask>*.xml</mask>
     <mask>*.java</mask>
@@ -34,9 +34,9 @@
     <mask>*.ts</mask>
     <mask>*.js</mask>
     <mask>!*.css, !*.js</mask>
-    <mask>!*.css</mask>
     <mask>!*.css, !betterhtmlelement*</mask>
     <mask>!*.css, !*.js,!*.d.ts</mask>
     <mask>*</mask>
+    <mask>!*.css</mask>
   </component>
 </application>
