@@ -4,19 +4,19 @@
       <option name="Bash" value="true" />
     </context>
   </template>
-  <template name="dg" value="${DIMGREY}$VAR$${NORMAL}" description="${DIMGREY} foo ${NORMAL}" toReformat="false" toShortenFQNames="true">
+  <template name="dg" value="${DIMGREY}$VAR$${NORMAL}&#10;$END$" description="${DIMGREY} foo ${NORMAL}" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Bash" value="true" />
     </context>
   </template>
-  <template name="h2" value="${H2}$VAR$${NORMAL}" description="${H2} foo ${NORMAL}" toReformat="false" toShortenFQNames="true">
+  <template name="h2" value="${H2}$VAR$${NORMAL}&#10;  $END$" description="${H2} foo ${NORMAL}" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Bash" value="true" />
     </context>
   </template>
-  <template name="w" value="${WHITE}$VAR$${NORMAL}" description="${WHITE}foo${NORMAL}" toReformat="false" toShortenFQNames="true">
+  <template name="white" value="${WHITE}$VAR$${NORMAL}&#10;  $END$" description="${WHITE}foo${NORMAL}" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Bash" value="true" />
