@@ -114,6 +114,10 @@
       <option name="FOREGROUND" value="943e3e" />
       <option name="FONT_TYPE" value="2" />
     </pattern>
+    <pattern useCustomColors="true" pattern="(?&lt;=! )[^\n]*$">
+      <option name="FOREGROUND" value="943e3e" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
   </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
