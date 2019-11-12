@@ -20,7 +20,7 @@
           <option name="steppingFilters">
             <list>
               <PySteppingFilter>
-                <option name="filter" value="env*" />
+                <option name="filter" value="**env**" />
               </PySteppingFilter>
             </list>
           </option>
