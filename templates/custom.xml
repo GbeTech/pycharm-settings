@@ -89,4 +89,10 @@
       <option name="CSS" value="true" />
     </context>
   </template>
+  <template name="fs" value="f'$var$: {$var$}'" description="f'$var$: {$var$}'" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
 </templateSet>
