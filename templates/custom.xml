@@ -78,8 +78,8 @@
       <option name="Python_Class" value="true" />
     </context>
   </template>
-  <template name="printf" value="print(f'$var1$: ', $var1$)" description="print(f'var: ', var)" toReformat="false" toShortenFQNames="true">
-    <variable name="var1" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="pf" value="print(f'$var$: {$var$}$END$')" description="print(f'var: {var}')" toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>

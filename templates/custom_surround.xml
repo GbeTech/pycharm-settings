@@ -45,7 +45,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="fprint" value="print(f'$VAR1$: {$VAR1$}'$END$)" description="f'$SELECTION: {$SELECTION}'" toReformat="true" toShortenFQNames="true">
+  <template name="fprint" value="print(f'$VAR1$: {$VAR1$}'$END$)" description="f'$SELECTION: {$SELECTION}'" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
