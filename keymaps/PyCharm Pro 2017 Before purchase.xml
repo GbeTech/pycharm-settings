@@ -98,10 +98,10 @@
   <action id="DatabaseView.Refresh" />
   <action id="DatabaseView.SqlGenerator" />
   <action id="Debug">
-    <keyboard-shortcut first-keystroke="ctrl f5" />
+    <keyboard-shortcut first-keystroke="f5" />
   </action>
   <action id="DebugClass">
-    <keyboard-shortcut first-keystroke="f5" />
+    <keyboard-shortcut first-keystroke="ctrl f5" />
   </action>
   <action id="Debugger.EditTypeSource" />
   <action id="DecrementWindowHeight" />
