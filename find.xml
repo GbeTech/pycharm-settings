@@ -3,13 +3,11 @@
     <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
-    <option name="regularExpressions" value="true" />
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="!*.css, !*sweetalert2.*" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.xml</mask>
     <mask>*.java</mask>
     <mask>*.as</mask>
@@ -31,7 +29,6 @@
     <mask>*.sass</mask>
     <mask>!.css</mask>
     <mask>*.ts, !*.d.*</mask>
-    <mask>*.ts</mask>
     <mask>!*.css, !*.js</mask>
     <mask>!*.css, !betterhtmlelement*</mask>
     <mask>!*.css, !*.js,!*.d.ts</mask>
@@ -40,5 +37,6 @@
     <mask>*.py</mask>
     <mask>!*.css</mask>
     <mask>!*.css, !*sweetalert2.*</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
