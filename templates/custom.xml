@@ -95,7 +95,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="kv" value="&quot;$var$&quot;: $var$," toReformat="false" toShortenFQNames="true">
+  <template name="kv" value="&quot;$var$&quot;: $var$," description="" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
