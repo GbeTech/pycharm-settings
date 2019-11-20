@@ -1,15 +1,11 @@
 <application>
   <component name="FindSettings">
-    <option name="caseSensitive" value="true" />
     <option name="customScope" value="All Places" />
     <option name="defaultScopeName" value="All Places" />
     <option name="skipResultsWithOneUsage" value="true" />
-    <option name="wholeWordsOnly" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
-    <option name="CASE_SENSITIVE_SEARCH" value="true" />
-    <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.py, *.html</mask>
@@ -38,7 +34,7 @@
     <mask>!*.css, !*sweetalert2.*</mask>
     <mask>!*.swee</mask>
     <mask>**/*site-packages/.*</mask>
-    <mask>*.ts</mask>
     <mask>*</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
