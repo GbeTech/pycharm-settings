@@ -9,7 +9,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.py" />
+    <option name="FILE_MASK" value="*.ts" />
     <mask>*.as</mask>
     <mask>*.mxml</mask>
     <mask>*.py, *.html</mask>
@@ -36,9 +36,9 @@
     <mask>!*.css, !*sweetalert2.*</mask>
     <mask>!*.swee</mask>
     <mask>**/*site-packages/.*</mask>
-    <mask>*.ts</mask>
     <mask>*.sass</mask>
     <mask>*</mask>
     <mask>*.py</mask>
+    <mask>*.ts</mask>
   </component>
 </application>
