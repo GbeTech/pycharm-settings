@@ -4,7 +4,7 @@
     <property name="created">2019-02-26T14:51:06</property>
     <property name="ide">Python</property>
     <property name="ideVersion">2018.3.4.0.0</property>
-    <property name="modified">2019-10-03T18:50:14</property>
+    <property name="modified">2019-11-23T11:16:18</property>
     <property name="originalScheme">Darcula 26.2.19</property>
   </metaInfo>
   <option name="LINE_SPACING" value="1.0" />
@@ -72,8 +72,8 @@
     </option>
     <option name="ERRORS_ATTRIBUTES">
       <value>
-        <option name="EFFECT_COLOR" value="9e2927" />
-        <option name="ERROR_STRIPE_COLOR" value="9e2927" />
+        <option name="EFFECT_COLOR" value="c42b29" />
+        <option name="ERROR_STRIPE_COLOR" value="c42a29" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
