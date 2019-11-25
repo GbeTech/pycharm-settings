@@ -7,8 +7,7 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.ts" />
-    <mask>*.js```</mask>
+    <option name="FILE_MASK" value="*.js" />
     <mask>.css</mask>
     <mask>.js</mask>
     <mask>*.html, *.js</mask>
@@ -26,7 +25,6 @@
     <mask>!*.css, !*.js</mask>
     <mask>!*.css, !betterhtmlelement*</mask>
     <mask>!*.css, !*.js,!*.d.ts</mask>
-    <mask>*.js</mask>
     <mask>!*.css</mask>
     <mask>!*.css, !*sweetalert2.*</mask>
     <mask>!*.swee</mask>
@@ -38,5 +36,7 @@
     <mask>*.test</mask>
     <mask>*.test, *.exam</mask>
     <mask>*.ts</mask>
+    <mask>*.exam, *.test</mask>
+    <mask>*.js</mask>
   </component>
 </application>
