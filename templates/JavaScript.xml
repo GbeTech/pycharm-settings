@@ -1,4 +1,10 @@
 <templateSet group="JavaScript">
+  <template name="itera" value="for ( $VARKIND$ $VAR$ of $ARRAY$ ) {&#10;  $END$&#10;}" description="Iterate (for..of)" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <variable name="VARKIND" expression="jsSuggestDefaultVariableKind()" defaultValue="let" alwaysStopAt="false" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="collection" alwaysStopAt="false" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="x" alwaysStopAt="true" />
+    <context />
+  </template>
   <template name="info" value="console.info($END$)" description="console.info()" toReformat="true" toShortenFQNames="true" deactivated="true">
     <context />
   </template>

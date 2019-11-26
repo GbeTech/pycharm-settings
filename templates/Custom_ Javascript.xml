@@ -78,4 +78,12 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="for" value="for ( let $VAR$ of $ARRAY$ ) {&#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
