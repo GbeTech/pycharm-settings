@@ -7,8 +7,7 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="LOCAL_REGULAR_EXPRESSIONS" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.js" />
-    <mask>.css</mask>
+    <option name="FILE_MASK" value="*.*ss" />
     <mask>.js</mask>
     <mask>*.html, *.js</mask>
     <mask>*.css, *.js</mask>
@@ -38,5 +37,6 @@
     <mask>*.exam, *.test</mask>
     <mask>*.ts</mask>
     <mask>*.js</mask>
+    <mask>*.*ss</mask>
   </component>
 </application>
