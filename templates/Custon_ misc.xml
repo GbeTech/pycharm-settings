@@ -1,4 +1,4 @@
-<templateSet group="custom">
+<templateSet group="Custon: misc">
   <template name="forr" value="for $VAR1$ in range($VAR2$):&#10;    $END$" description="for in range" toReformat="true" toShortenFQNames="true">
     <variable name="VAR1" expression="index" defaultValue="i" alwaysStopAt="true" />
     <variable name="VAR2" expression="iterable" defaultValue="" alwaysStopAt="true" />

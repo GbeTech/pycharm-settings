@@ -1,0 +1,5 @@
+<templateSet group="JavaScript">
+  <template name="info" value="console.info($END$)" description="console.info()" toReformat="true" toShortenFQNames="true" deactivated="true">
+    <context />
+  </template>
+</templateSet>

@@ -1,4 +1,4 @@
-<templateSet group="custom_js">
+<templateSet group="Custom: Javascript">
   <template name="cl" value="console.log($SELECTION$$END$);" description="console.log" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -10,25 +10,25 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cw" value="console.warn($SELECTION$$END$);" description="console.warn" toReformat="false" toShortenFQNames="true">
+  <template name="cw" value="console.warn(`$END$`);" description="console.warn" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try{&#10;    $SELECTION$&#10;    $END$ &#10;} catch(e){&#10;&#9;&#10;}" description="surround with try/catch" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="try" value="try{&#10;    $SELECTION$ &#10;} catch(e){&#10;&#9;$END$&#10;}" description="surround with try/catch" toReformat="true" toShortenFQNames="true">
+  <template name="cg" value="console.group(`$END$`);" description="console.group" toReformat="false" toShortenFQNames="true">
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="comment" value="/*$SELECTION$&#10;$END$*/" description="surround with /* */" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="CSS" value="true" />
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="cg" value="console.group('$END$');" description="console.group" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="cge" value="console.groupEnd();" description="console.groupEnd()" toReformat="false" toShortenFQNames="true">
@@ -52,13 +52,30 @@
   <template name="test" value="test(`$Expectation$`, ()=&gt; expect($Expectation$).$END$ );" description="Jest Test" toReformat="true" toShortenFQNames="true">
     <variable name="Expectation" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="expect" value="expect($expectation$).$END$;" description="Jest Expect" toReformat="false" toShortenFQNames="true">
     <variable name="expectation" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if ( $VAR1$ ) {&#10;&#9;$END$&#10;}" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="if ( $VAR$ ) {&#10;&#9;$END$&#10;} else {&#10;&#10;}" description="if else" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>
