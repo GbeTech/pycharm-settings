@@ -5,7 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.ts" />
+    <option name="FILE_MASK" value="*.js" />
     <mask>.js</mask>
     <mask>*.html, *.js</mask>
     <mask>*.css, *.js</mask>
@@ -32,9 +32,9 @@
     <mask>*.test</mask>
     <mask>*.test, *.exam</mask>
     <mask>*.exam, *.test</mask>
-    <mask>*.js</mask>
     <mask>*.*ss</mask>
     <mask>*</mask>
     <mask>*.ts</mask>
+    <mask>*.js</mask>
   </component>
 </application>
