@@ -64,7 +64,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="if" value="if ( $VAR1$ ) {&#10;&#9;$END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="if" value="if ( $VAR1$ ) {&#10;&#9;$END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -78,7 +78,7 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
-  <template name="for" value="for ( let $VAR$ of $ARRAY$ ) {&#10;  $END$&#10;}" toReformat="false" toShortenFQNames="true">
+  <template name="for" value="for ( let $VAR$ of $ARRAY$ ) {&#10;  $END$&#10;}" description="" toReformat="false" toShortenFQNames="true">
     <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="ARRAY" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
