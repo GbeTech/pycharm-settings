@@ -125,6 +125,20 @@
       <option name="FONT_TYPE" value="2" />
       <option name="EFFECT_TYPE" value="1" />
     </pattern>
+    <pattern useCustomColors="true" pattern="(?&lt;=##)[^\n]*$">
+      <option name="FOREGROUND" value="9b9b9b" />
+      <option name="FONT_TYPE" value="2" />
+    </pattern>
+    <pattern useCustomColors="true" pattern="(?&lt;=###)[^\n]*$">
+      <option name="FOREGROUND" value="9b9b9b" />
+      <option name="FONT_TYPE" value="3" />
+    </pattern>
+    <pattern useCustomColors="true" pattern="(?&lt;=####)[^\n]*$">
+      <option name="FOREGROUND" value="afafaf" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="EFFECT_COLOR" value="afafaf" />
+      <option name="EFFECT_TYPE" value="1" />
+    </pattern>
   </component>
   <component name="XmlEditorOptions">
     <option name="showCssInlineColorPreview" value="true" />
