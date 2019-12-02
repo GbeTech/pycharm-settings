@@ -5,7 +5,7 @@
     <option name="skipResultsWithOneUsage" value="true" />
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.ts, *.py" />
+    <option name="FILE_MASK" value="*.py" />
     <mask>*.css, *.js</mask>
     <mask>*.js, *.css</mask>
     <mask>*.js, *.css, *.html</mask>
@@ -25,7 +25,6 @@
     <mask>!*.swee</mask>
     <mask>**/*site-packages/.*</mask>
     <mask>*.sass</mask>
-    <mask>*.py</mask>
     <mask>*.exam</mask>
     <mask>*.test</mask>
     <mask>*.test, *.exam</mask>
@@ -36,5 +35,6 @@
     <mask>*.ts</mask>
     <mask>*.ts, !*.d.ts</mask>
     <mask>*.ts, *.py</mask>
+    <mask>*.py</mask>
   </component>
 </application>
