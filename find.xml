@@ -32,9 +32,9 @@
     <mask>*.*ss</mask>
     <mask>*</mask>
     <mask>*.js</mask>
-    <mask>*.ts</mask>
     <mask>*.ts, !*.d.ts</mask>
     <mask>*.ts, *.py</mask>
+    <mask>*.ts</mask>
     <mask>*.py</mask>
   </component>
 </application>
