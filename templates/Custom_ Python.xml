@@ -4,7 +4,7 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="enum" value="enumerate($SELECTION$)$END$" description="enumerate($SELECTION$)$END" toReformat="false" toShortenFQNames="true">
+  <template name="enum" value="enumerate($SELECTION$)$END$" description="enumerate($SELECTION$)$END" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="Python" value="true" />
     </context>
