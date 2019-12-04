@@ -1,13 +1,16 @@
 <templateSet group="Custom: Javascript">
-  <template name="cl" value="console.log($SELECTION$$END$);" description="console.log" toReformat="false" toShortenFQNames="true">
+  <template name="cl" value="console.log($END$);" description="console.log" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cll" value="console.log({'$VAR1$'$END$:$VAR1$});" description="console.log({$selection$})" toReformat="true" toShortenFQNames="true">
+  <template name="cll" value="console.log(`$VAR1$: ${$VAR1$}`);" description="console.log({$selection$})" toReformat="true" toShortenFQNames="true">
     <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
-      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
   <template name="cw" value="console.warn(`$END$`);" description="console.warn" toReformat="false" toShortenFQNames="true">
@@ -43,7 +46,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="describe" value="describe(`$SuitName$`, ()=&gt;{&#10;$END$&#10;});" description="Jest Describe" toReformat="true" toShortenFQNames="true">
+  <template name="describe" value="describe(`$SuitName$`, ()=&gt;{&#10;$END$&#10;});" description="Jest Describe" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="SuitName" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -58,7 +61,7 @@
       <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
-  <template name="expect" value="expect($expectation$).$END$;" description="Jest Expect" toReformat="false" toShortenFQNames="true">
+  <template name="expect" value="expect($expectation$).$END$;" description="Jest Expect" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="expectation" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
@@ -93,5 +96,8 @@
       <option name="JAVA_SCRIPT" value="true" />
       <option name="TypeScript" value="true" />
     </context>
+  </template>
+  <template name="kv" value="&quot;$var$&quot;: $var$," toReformat="false" toShortenFQNames="true">
+    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
 </templateSet>

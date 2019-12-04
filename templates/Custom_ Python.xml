@@ -45,19 +45,26 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="fprint" value="print(f'$VAR1$: {$VAR1$}'$END$)" description="f'$SELECTION: {$SELECTION}'" toReformat="true" toShortenFQNames="true" deactivated="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="Python" value="true" />
-    </context>
-  </template>
   <template name="len s" value="len($SELECTION$)$END$" description="len selection" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="if" value="if $CONDITION$:&#10;    $SELECTION$" description="surround with if" toReformat="false" toShortenFQNames="true">
+  <template name="if" value="if $CONDITION$:&#10;    $SELECTION$" description="surround with if" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="CONDITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ife" value="if $CLAUSE$:&#10;    $END$&#10;else:&#10;&#9;" description="if else" toReformat="false" toShortenFQNames="true">
+    <variable name="CLAUSE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="Python" value="true" />
+    </context>
+  </template>
+  <template name="ifel" value="if $VAR1$:&#10;    $END$&#10;elif $VAR2$:&#10;&#9;&#10;&#9;" description="if elif" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
     </context>

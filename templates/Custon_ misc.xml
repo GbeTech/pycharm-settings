@@ -1,5 +1,5 @@
 <templateSet group="Custon: misc">
-  <template name="forr" value="for $VAR1$ in range($VAR2$):&#10;    $END$" description="for in range" toReformat="true" toShortenFQNames="true">
+  <template name="forr" value="for $VAR1$ in range($VAR2$):&#10;    $END$" description="for in range" toReformat="true" toShortenFQNames="true" deactivated="true">
     <variable name="VAR1" expression="index" defaultValue="i" alwaysStopAt="true" />
     <variable name="VAR2" expression="iterable" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -39,12 +39,12 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="_str" value="def __str__(self):&#10;    return $END$" description="def __str__" toReformat="false" toShortenFQNames="true">
+  <template name="_str" value="def __str__(self):&#10;    return $END$" description="def __str__" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="fore" value="for $I$,$V$ in enumerate($O$):&#10;    $END$" description="for i,v in enumerate" toReformat="false" toShortenFQNames="true">
+  <template name="fore" value="for $I$,$V$ in enumerate($O$):&#10;    $END$" description="for i,v in enumerate" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="I" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="V" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="O" expression="" defaultValue="" alwaysStopAt="true" />
@@ -66,12 +66,12 @@
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="fora" value="for arg in args:&#10;    $END$" description="for arg in args:" toReformat="false" toShortenFQNames="true">
+  <template name="fora" value="for arg in args:&#10;    $END$" description="for arg in args:" toReformat="false" toShortenFQNames="true" deactivated="true">
     <context>
       <option name="Python" value="true" />
     </context>
   </template>
-  <template name="defs" value="def $NAME$(self, $P1$):&#10;    $END$" description="method with self" toReformat="false" toShortenFQNames="true">
+  <template name="defs" value="def $NAME$(self, $P1$):&#10;    $END$" description="method with self" toReformat="false" toShortenFQNames="true" deactivated="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="P1" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
@@ -89,19 +89,10 @@
       <option name="CSS" value="true" />
     </context>
   </template>
-  <template name="fs" value="f'$var$: {$var$}'" description="f'$var$: {$var$}'" toReformat="false" toShortenFQNames="true">
+  <template name="fs" value="$var$: {$var$}" description="$var$: {$var$}" toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="Python" value="true" />
-    </context>
-  </template>
-  <template name="kv" value="&quot;$var$&quot;: $var$," description="" toReformat="false" toShortenFQNames="true">
-    <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-      <option name="JSON" value="true" />
-      <option name="Python" value="true" />
-      <option name="TypeScript" value="true" />
     </context>
   </template>
 </templateSet>
