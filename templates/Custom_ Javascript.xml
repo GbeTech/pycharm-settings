@@ -99,6 +99,10 @@
   </template>
   <template name="kv" value="&quot;$var$&quot;: $var$," toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
   </template>
   <template name="ct" value="console.time(`$END$`);" description="console.time" toReformat="false" toShortenFQNames="true">
     <context>
