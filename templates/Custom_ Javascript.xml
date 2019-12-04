@@ -100,4 +100,17 @@
   <template name="kv" value="&quot;$var$&quot;: $var$," toReformat="false" toShortenFQNames="true">
     <variable name="var" expression="" defaultValue="" alwaysStopAt="true" />
   </template>
+  <template name="ct" value="console.time(`$END$`);" description="console.time" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="cte" value="console.timeEnd($END$);" description="console.timeEnd()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
