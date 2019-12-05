@@ -4,8 +4,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="cll" value="console.log(`$VAR1$: ${$VAR1$}`);" description="console.log({$selection$})" toReformat="true" toShortenFQNames="true">
-    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="cll" value="console.log(`$SELECTION$: ${$SELECTION$}`);" description="console.log(`$SELECTION$: ${$SELECTION$}`);" toReformat="true" toShortenFQNames="true">
     <context>
       <option name="JSX_HTML" value="true" />
       <option name="JS_CLASS" value="true" />
@@ -115,6 +114,24 @@
   <template name="cte" value="console.timeEnd($END$);" description="console.timeEnd()" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="ce" value="console.error(`$VAR1$`, $VAR2$);" description="console.error" toReformat="false" toShortenFQNames="true">
+    <variable name="VAR1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VAR2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="clo" value="console.log({$SELECTION$});" description="console.log({$selection$})" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JSX_HTML" value="true" />
+      <option name="JS_CLASS" value="true" />
+      <option name="JS_EXPRESSION" value="true" />
+      <option name="JS_STATEMENT" value="true" />
     </context>
   </template>
 </templateSet>
