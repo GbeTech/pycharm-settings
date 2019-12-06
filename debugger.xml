@@ -14,8 +14,14 @@
           <stepping-filters-enabled>false</stepping-filters-enabled>
         </configuration>
       </debugger>
+      <debugger id="oracle">
+        <configuration>
+          <option name="steppingPauseAtBegin" value="true" />
+        </configuration>
+      </debugger>
       <debugger id="python">
         <configuration>
+          <option name="librariesFilterEnabled" value="true" />
           <option name="simplifiedView" value="false" />
           <option name="steppingFilters">
             <list>
