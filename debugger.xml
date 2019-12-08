@@ -21,7 +21,6 @@
       </debugger>
       <debugger id="python">
         <configuration>
-          <option name="librariesFilterEnabled" value="true" />
           <option name="simplifiedView" value="false" />
           <option name="steppingFilters">
             <list>
@@ -33,7 +32,6 @@
               </PySteppingFilter>
             </list>
           </option>
-          <option name="steppingFiltersEnabled" value="true" />
           <option name="watchReturnValues" value="true" />
         </configuration>
       </debugger>
