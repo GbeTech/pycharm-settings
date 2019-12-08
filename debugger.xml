@@ -21,11 +21,15 @@
       </debugger>
       <debugger id="python">
         <configuration>
+          <option name="librariesFilterEnabled" value="true" />
           <option name="simplifiedView" value="false" />
           <option name="steppingFilters">
             <list>
               <PySteppingFilter>
                 <option name="filter" value="**env**" />
+              </PySteppingFilter>
+              <PySteppingFilter>
+                <option name="filter" value="*birdseye*" />
               </PySteppingFilter>
             </list>
           </option>
