@@ -7,7 +7,7 @@
     <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.ts" />
+    <option name="FILE_MASK" value="*.ts, *.py" />
     <mask>*.css, *.js</mask>
     <mask>*.js, *.css</mask>
     <mask>*.js, *.css, *.html</mask>
@@ -33,10 +33,10 @@
     <mask>*.exam, *.test</mask>
     <mask>*.*ss</mask>
     <mask>*.ts, !*.d.ts</mask>
-    <mask>*.ts, *.py</mask>
     <mask>*</mask>
     <mask>*.py</mask>
     <mask>*.js</mask>
     <mask>*.ts</mask>
+    <mask>*.ts, *.py</mask>
   </component>
 </application>
