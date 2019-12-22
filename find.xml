@@ -9,7 +9,7 @@
     <option name="CASE_SENSITIVE_SEARCH" value="true" />
     <option name="WHOLE_WORDS_ONLY" value="true" />
     <option name="SEARCH_SCOPE" value="All Places" />
-    <option name="FILE_MASK" value="*.py" />
+    <option name="FILE_MASK" value="*" />
     <mask>*.js, *.css</mask>
     <mask>*.js, *.css, *.html</mask>
     <mask>*.js, *.py</mask>
@@ -34,11 +34,11 @@
     <mask>*.exam, *.test</mask>
     <mask>*.*ss</mask>
     <mask>*.ts, !*.d.ts</mask>
-    <mask>*</mask>
     <mask>*.js</mask>
     <mask>*.ts</mask>
     <mask>*.ts, *.py</mask>
     <mask>*.md</mask>
     <mask>*.py</mask>
+    <mask>*</mask>
   </component>
 </application>
