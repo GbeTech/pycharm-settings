@@ -521,6 +521,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl alt u" />
   </action>
   <action id="TodoViewGroupByShowModules" />
+  <action id="ToggleFindInSelection" />
   <action id="ToggleFullScreen">
     <keyboard-shortcut first-keystroke="shift ctrl f12" />
   </action>
