@@ -28,7 +28,6 @@
   <action id="BrowseWordAtCaretPlugin.Previous">
     <keyboard-shortcut first-keystroke="ctrl alt j" />
   </action>
-  <action id="ChangeSignature" />
   <action id="ChangesView.AddUnversioned" />
   <action id="ChangesView.GroupBy.Directory" />
   <action id="ChangesView.Move" />
@@ -413,7 +412,6 @@
   <action id="RunInspectionOn">
     <keyboard-shortcut first-keystroke="shift ctrl alt i" />
   </action>
-  <action id="RunToCursor" />
   <action id="SaveAll" />
   <action id="Scratch.OpenScratchList">
     <keyboard-shortcut first-keystroke="alt c" second-keystroke="alt d" />
@@ -610,7 +608,6 @@
     <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="emacsIDEAs.JustOneSpace" />
-  <action id="hg4idea.QFold" />
   <action id="hg4idea.QRefresh" />
   <action id="intellij.frontendalignement.AlignItAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" />

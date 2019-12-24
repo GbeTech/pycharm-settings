@@ -1,0 +1,44 @@
+<application>
+  <component name="FindSettings">
+    <option name="caseSensitive" value="true" />
+    <option name="customScope" value="All Places" />
+    <option name="defaultScopeName" value="All Places" />
+    <option name="localCaseSensitive" value="true" />
+    <option name="skipResultsWithOneUsage" value="true" />
+    <option name="SKIP_RESULTS_WHEN_ONE_USAGE" value="true" />
+    <option name="CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="LOCAL_CASE_SENSITIVE_SEARCH" value="true" />
+    <option name="SEARCH_SCOPE" value="All Places" />
+    <option name="FILE_MASK" value="*.js" />
+    <mask>*.css, *.js</mask>
+    <mask>*.js, *.css</mask>
+    <mask>*.js, *.css, *.html</mask>
+    <mask>*.js, *.py</mask>
+    <mask>*.py, *.js</mask>
+    <mask>*.*</mask>
+    <mask>*.js, *.html</mask>
+    <mask>*.css</mask>
+    <mask>*.html</mask>
+    <mask>!.css</mask>
+    <mask>*.ts, !*.d.*</mask>
+    <mask>!*.css, !*.js</mask>
+    <mask>!*.css, !betterhtmlelement*</mask>
+    <mask>!*.css, !*.js,!*.d.ts</mask>
+    <mask>!*.css</mask>
+    <mask>!*.css, !*sweetalert2.*</mask>
+    <mask>!*.swee</mask>
+    <mask>**/*site-packages/.*</mask>
+    <mask>*.sass</mask>
+    <mask>*.exam</mask>
+    <mask>*.test</mask>
+    <mask>*.test, *.exam</mask>
+    <mask>*.exam, *.test</mask>
+    <mask>*.*ss</mask>
+    <mask>*.ts, !*.d.ts</mask>
+    <mask>*.ts, *.py</mask>
+    <mask>*</mask>
+    <mask>*.ts</mask>
+    <mask>*.py</mask>
+    <mask>*.js</mask>
+  </component>
+</application>
